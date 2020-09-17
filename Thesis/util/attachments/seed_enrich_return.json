@@ -1,8 +1,8 @@
 {
-    abstract”: ”Apple is a company...”,
-    ”attributes”: [{“
-        type”: ”name”,
-        “value”: ”Apple Inc.”
-    }, ...],
-    ”outgoingAssociations”: [...]
+    "abstract": "Apple is a company...",
+    "attributes": [{
+        "type": "name",
+        "value": "Apple Inc."
+    }],
+    "outgoingAssociations": []
 }

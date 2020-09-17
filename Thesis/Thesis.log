@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.16)  16 SEP 2020 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.16)  17 SEP 2020 15:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -394,16 +394,14 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \epsfxsize=\dimen167
 \epsfysize=\dimen168
-) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/mathpartir.sty
-Package: mathpartir 2005/12/20 version 1.2.0 Math Paragraph for Typesetting Inference Rules
-\mpr@tmpdim=\dimen169
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/mathpartir/mathpartir.sty
+Package: mathpartir 2016/02/24 version 1.3.2 Math Paragraph for Typesetting Inference Rules
 \mpr@andskip=\skip75
 \mpr@lista=\toks26
 \mpr@listb=\toks27
 \mpr@hlist=\box54
 \mpr@vlist=\box55
 \mpr@right=\box56
-\rule@dimen=\dimen170
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -425,8 +423,8 @@ Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count290
 \calc@Bcount=\count291
-\calc@Adimen=\dimen171
-\calc@Bdimen=\dimen172
+\calc@Adimen=\dimen169
+\calc@Bdimen=\dimen170
 \calc@Askip=\skip76
 \calc@Bskip=\skip77
 LaTeX Info: Redefining \setlength on input line 80.
@@ -445,10 +443,10 @@ Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks29
-\ex@=\dimen173
+\ex@=\dimen171
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen174
+\pmbraise@=\dimen172
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
@@ -464,7 +462,7 @@ LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
 \Mathstrutbox@=\box57
 \strutbox@=\box58
-\big@size=\dimen175
+\big@size=\dimen173
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \macc@depth=\count298
@@ -477,12 +475,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \column@=\count303
 \maxfields@=\count304
 \andhelp@=\toks31
-\eqnshift@=\dimen176
-\alignsep@=\dimen177
-\tagshift@=\dimen178
-\tagwidth@=\dimen179
-\totwidth@=\dimen180
-\lineht@=\dimen181
+\eqnshift@=\dimen174
+\alignsep@=\dimen175
+\tagshift@=\dimen176
+\tagwidth@=\dimen177
+\totwidth@=\dimen178
+\lineht@=\dimen179
 \@envbody=\toks32
 \multlinegap=\skip80
 \multlinetaggap=\skip81
@@ -495,16 +493,16 @@ LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \g_MT_multlinerow_int=\count305
-\l_MT_multwidth_dim=\dimen182
+\l_MT_multwidth_dim=\dimen180
 \origjot=\skip82
-\l_MT_shortvdotswithinadjustabove_dim=\dimen183
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen184
-\l_MT_above_intertext_sep=\dimen185
-\l_MT_below_intertext_sep=\dimen186
-\l_MT_above_shortintertext_sep=\dimen187
-\l_MT_below_shortintertext_sep=\dimen188
+\l_MT_shortvdotswithinadjustabove_dim=\dimen181
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen182
+\l_MT_above_intertext_sep=\dimen183
+\l_MT_below_intertext_sep=\dimen184
+\l_MT_above_shortintertext_sep=\dimen185
+\l_MT_below_shortintertext_sep=\dimen186
 \xmathstrut@box=\box59
-\xmathstrut@dim=\dimen189
+\xmathstrut@dim=\dimen187
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
@@ -512,7 +510,7 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip83
 \multirow@cntb=\count306
 \multirow@dima=\skip84
-\bigstrutjot=\dimen190
+\bigstrutjot=\dimen188
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks34
@@ -520,30 +518,30 @@ Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 \verbatim@in@stream=\read2
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen191
-\lightrulewidth=\dimen192
-\cmidrulewidth=\dimen193
-\belowrulesep=\dimen194
-\belowbottomsep=\dimen195
-\aboverulesep=\dimen196
-\abovetopsep=\dimen197
-\cmidrulesep=\dimen198
-\cmidrulekern=\dimen199
-Normal \dimen register pool exhausted, switching to extended pool.
-\defaultaddspace=\dimen256
+\heavyrulewidth=\dimen189
+\lightrulewidth=\dimen190
+\cmidrulewidth=\dimen191
+\belowrulesep=\dimen192
+\belowbottomsep=\dimen193
+\aboverulesep=\dimen194
+\abovetopsep=\dimen195
+\cmidrulesep=\dimen196
+\cmidrulekern=\dimen197
+\defaultaddspace=\dimen198
 \@cmidla=\count307
 \@cmidlb=\count308
-\@aboverulesep=\dimen257
-\@belowrulesep=\dimen258
+\@aboverulesep=\dimen199
+Normal \dimen register pool exhausted, switching to extended pool.
+\@belowrulesep=\dimen256
 \@thisruleclass=\count309
 \@lastruleclass=\count310
-\@thisrulewidth=\dimen259
+\@thisrulewidth=\dimen257
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/cases/cases.sty
 Package: cases 2020/03/10 ver 3.1
-\numc@numwid=\dimen260
+\numc@numwid=\dimen258
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen261
-\WF@size=\dimen262
+\wrapoverhang=\dimen259
+\WF@size=\dimen260
 \c@WF@wrappedlines=\count311
 \WF@box=\box60
 \WF@everypar=\toks36
@@ -560,60 +558,61 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \@float@every@algorithm=\toks39
 \c@algorithm=\count313
-) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/algorithmic.sty
-Package: algorithmic 
-
-Document Style `algorithmic' - environment
-\c@ALC@line=\count314
-\c@ALC@rem=\count315
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count314
+\c@ALC@line=\count315
+\c@ALC@rem=\count316
+\c@ALC@depth=\count317
 \ALC@tlm=\skip85
+\algorithmicindent=\skip86
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen263
-\TX@old@table=\dimen264
-\TX@old@col=\dimen265
-\TX@target=\dimen266
-\TX@delta=\dimen267
-\TX@cols=\count316
+\TX@col@width=\dimen261
+\TX@old@table=\dimen262
+\TX@old@col=\dimen263
+\TX@target=\dimen264
+\TX@delta=\dimen265
+\TX@cols=\count318
 \TX@ftn=\toks40
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip86
-\LTright=\skip87
-\LTpre=\skip88
-\LTpost=\skip89
-\LTchunksize=\count317
-\LTcapwidth=\dimen268
+\LTleft=\skip87
+\LTright=\skip88
+\LTpre=\skip89
+\LTpost=\skip90
+\LTchunksize=\count319
+\LTcapwidth=\dimen266
 \LT@head=\box63
 \LT@firsthead=\box64
 \LT@foot=\box65
 \LT@lastfoot=\box66
-\LT@cols=\count318
-\LT@rows=\count319
-\c@LT@tables=\count320
-\c@LT@chunks=\count321
+\LT@cols=\count320
+\LT@rows=\count321
+\c@LT@tables=\count322
+\c@LT@chunks=\count323
 \LT@p@ftn=\toks41
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/easylist/easylist.sty
 Package: easylist 2014/01/11 v.1.4 Numbered items with a single command.
-\el@CounterTotal=\count322
-\el@Scratch=\count323
-\el@ControlCounter=\count324
-\el@CounterLevel=\count325
-\c@List1=\count326
-\c@List2=\count327
-\c@List3=\count328
-\c@List4=\count329
-\c@List5=\count330
-\c@List6=\count331
-\c@List7=\count332
-\c@List8=\count333
-\c@List9=\count334
-\c@List10=\count335
-\el@ProgressiveDimension=\dimen269
+\el@CounterTotal=\count324
+\el@Scratch=\count325
+\el@ControlCounter=\count326
+\el@CounterLevel=\count327
+\c@List1=\count328
+\c@List2=\count329
+\c@List3=\count330
+\c@List4=\count331
+\c@List5=\count332
+\c@List6=\count333
+\c@List7=\count334
+\c@List8=\count335
+\c@List9=\count336
+\c@List10=\count337
+\el@ProgressiveDimension=\dimen267
 \el@CounterBox=\box67
 \el@ControlBox=\box68
-\el@TotalMargin=\dimen270
-\el@LeftMove=\dimen271
+\el@TotalMargin=\dimen268
+\el@LeftMove=\dimen269
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/afterpage.sty
@@ -632,17 +631,17 @@ Package: caption 2020/01/03 v3.4h Customizing captions (AR)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen272
-\captionmargin@=\dimen273
-\captionwidth=\dimen274
-\caption@tempdima=\dimen275
-\caption@indent=\dimen276
-\caption@parindent=\dimen277
-\caption@hangindent=\dimen278
+\captionmargin=\dimen270
+\captionmargin@=\dimen271
+\captionwidth=\dimen272
+\caption@tempdima=\dimen273
+\caption@indent=\dimen274
+\caption@parindent=\dimen275
+\caption@hangindent=\dimen276
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count336
-\c@continuedfloat=\count337
+\c@caption@flags=\count338
+\c@continuedfloat=\count339
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -654,9 +653,9 @@ Package caption Info: subfigure package is loaded.
 Package caption Info: wrapfig package is loaded.
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count338
-\rotFPtop=\skip90
-\rotFPbot=\skip91
+\c@r@tfl@t=\count340
+\rotFPtop=\skip91
+\rotFPbot=\skip92
 \rot@float@box=\box71
 \rot@mess@toks=\toks43
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/todonotes/todonotes.sty
@@ -664,8 +663,8 @@ Package: todonotes 2019/01/24 v1.1.2 Todonotes source and documentation.
 Package: todonotes 2018/11/22
  (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks44
-\pgfutil@tempdima=\dimen279
-\pgfutil@tempdimb=\dimen280
+\pgfutil@tempdima=\dimen277
+\pgfutil@tempdimb=\dimen278
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box72
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -680,26 +679,26 @@ Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks47
 ))
-\pgf@x=\dimen281
-\pgf@y=\dimen282
-\pgf@xa=\dimen283
-\pgf@ya=\dimen284
-\pgf@xb=\dimen285
-\pgf@yb=\dimen286
-\pgf@xc=\dimen287
-\pgf@yc=\dimen288
-\pgf@xd=\dimen289
-\pgf@yd=\dimen290
+\pgf@x=\dimen279
+\pgf@y=\dimen280
+\pgf@xa=\dimen281
+\pgf@ya=\dimen282
+\pgf@xb=\dimen283
+\pgf@yb=\dimen284
+\pgf@xc=\dimen285
+\pgf@yc=\dimen286
+\pgf@xd=\dimen287
+\pgf@yd=\dimen288
 \w@pgf@writea=\write6
 \r@pgf@reada=\read3
-\c@pgf@counta=\count339
-\c@pgf@countb=\count340
-\c@pgf@countc=\count341
-\c@pgf@countd=\count342
+\c@pgf@counta=\count341
+\c@pgf@countb=\count342
+\c@pgf@countc=\count343
+\c@pgf@countd=\count344
 \t@pgf@toka=\toks48
 \t@pgf@tokb=\toks49
 \t@pgf@tokc=\toks50
-\pgf@sys@id@count=\count343
+\pgf@sys@id@count=\count345
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -710,59 +709,59 @@ File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
 File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count344
-\pgfsyssoftpath@bigbuffer@items=\count345
+\pgfsyssoftpath@smallbuffer@items=\count346
+\pgfsyssoftpath@bigbuffer@items=\count347
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen291
-\pgfmath@count=\count346
+\pgfmath@dimen=\dimen289
+\pgfmath@count=\count348
 \pgfmath@box=\box73
 \pgfmath@toks=\toks51
 \pgfmath@stack@operand=\toks52
 \pgfmath@stack@operation=\toks53
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count347
+\c@pgfmathroundto@lastzeros=\count349
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen292
-\pgf@picmaxx=\dimen293
-\pgf@picminy=\dimen294
-\pgf@picmaxy=\dimen295
-\pgf@pathminx=\dimen296
-\pgf@pathmaxx=\dimen297
-\pgf@pathminy=\dimen298
-\pgf@pathmaxy=\dimen299
-\pgf@xx=\dimen300
-\pgf@xy=\dimen301
-\pgf@yx=\dimen302
-\pgf@yy=\dimen303
-\pgf@zx=\dimen304
-\pgf@zy=\dimen305
+\pgf@picminx=\dimen290
+\pgf@picmaxx=\dimen291
+\pgf@picminy=\dimen292
+\pgf@picmaxy=\dimen293
+\pgf@pathminx=\dimen294
+\pgf@pathmaxx=\dimen295
+\pgf@pathminy=\dimen296
+\pgf@pathmaxy=\dimen297
+\pgf@xx=\dimen298
+\pgf@xy=\dimen299
+\pgf@yx=\dimen300
+\pgf@yy=\dimen301
+\pgf@zx=\dimen302
+\pgf@zy=\dimen303
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen306
-\pgf@path@lasty=\dimen307
+\pgf@path@lastx=\dimen304
+\pgf@path@lasty=\dimen305
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen308
-\pgf@shorten@start@additional=\dimen309
+\pgf@shorten@end@additional=\dimen306
+\pgf@shorten@start@additional=\dimen307
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box74
 \pgf@hbox=\box75
 \pgf@layerbox@main=\box76
-\pgf@picture@serial@count=\count348
+\pgf@picture@serial@count=\count350
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen310
+\pgflinewidth=\dimen308
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen311
-\pgf@pt@y=\dimen312
-\pgf@pt@temp=\dimen313
+\pgf@pt@x=\dimen309
+\pgf@pt@y=\dimen310
+\pgf@pt@temp=\dimen311
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -771,12 +770,12 @@ File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen314
+\pgfarrowsep=\dimen312
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen315
-\pgf@sys@shading@range@num=\count349
-\pgf@shadingcount=\count350
+\pgf@max=\dimen313
+\pgf@sys@shading@range@num=\count351
+\pgf@shadingcount=\count352
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -797,47 +796,47 @@ File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen316
-\pgf@nodesepend=\dimen317
+\pgf@nodesepstart=\dimen314
+\pgf@nodesepend=\dimen315
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen318
-\pgffor@skip=\dimen319
+\pgffor@iter=\dimen316
+\pgffor@skip=\dimen317
 \pgffor@stack=\toks54
 \pgffor@toks=\toks55
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count351
-\pgfplotmarksize=\dimen320
+\pgf@plot@mark@count=\count353
+\pgfplotmarksize=\dimen318
 )
-\tikz@lastx=\dimen321
-\tikz@lasty=\dimen322
-\tikz@lastxsaved=\dimen323
-\tikz@lastysaved=\dimen324
-\tikz@lastmovetox=\dimen325
-\tikz@lastmovetoy=\dimen326
-\tikzleveldistance=\dimen327
-\tikzsiblingdistance=\dimen328
+\tikz@lastx=\dimen319
+\tikz@lasty=\dimen320
+\tikz@lastxsaved=\dimen321
+\tikz@lastysaved=\dimen322
+\tikz@lastmovetox=\dimen323
+\tikz@lastmovetoy=\dimen324
+\tikzleveldistance=\dimen325
+\tikzsiblingdistance=\dimen326
 \tikz@figbox=\box79
 \tikz@figbox@bg=\box80
 \tikz@tempbox=\box81
 \tikz@tempbox@bg=\box82
-\tikztreelevel=\count352
-\tikznumberofchildren=\count353
-\tikznumberofcurrentchild=\count354
-\tikz@fig@count=\count355
+\tikztreelevel=\count354
+\tikznumberofchildren=\count355
+\tikznumberofcurrentchild=\count356
+\tikz@fig@count=\count357
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count356
-\pgfmatrixcurrentcolumn=\count357
-\pgf@matrix@numberofcolumns=\count358
+\pgfmatrixcurrentrow=\count358
+\pgfmatrixcurrentcolumn=\count359
+\pgf@matrix@numberofcolumns=\count360
 )
-\tikz@expandcount=\count359
+\tikz@expandcount=\count361
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
@@ -849,11 +848,11 @@ File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-\c@@todonotes@numberoftodonotes=\count360
+\c@@todonotes@numberoftodonotes=\count362
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/changepage/chngpage.sty
 Package: chngpage 2009/10/20 v1.2b change page layout
-\c@cp@cnt=\count361
-\c@cp@tempcnt=\count362
+\c@cp@cnt=\count363
+\c@cp@tempcnt=\count364
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
@@ -865,51 +864,51 @@ LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/silence/silence.sty
 Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error messages
-\sl@Save=\count363
-\sl@StateNumber=\count364
-\sl@MessageCount=\count365
-\sl@Casualties=\count366
+\sl@Save=\count365
+\sl@StateNumber=\count366
+\sl@MessageCount=\count367
+\sl@Casualties=\count368
 \sl@Filter=\toks56
 \sl@Message=\toks57
 \sl@UnexpandedMessage=\toks58
 \sl@Mess@ge=\toks59
-\sl@WarningCount=\count367
-\sl@WarningNumber=\count368
-\sl@WarningCasualties=\count369
+\sl@WarningCount=\count369
+\sl@WarningNumber=\count370
+\sl@WarningCasualties=\count371
 \sl@TempBOW=\toks60
 \sl@BankOfWarnings=\toks61
 LaTeX Info: Redefining \GenericWarning on input line 433.
-\sl@ErrorCount=\count370
-\sl@ErrorNumber=\count371
-\sl@ErrorCasualties=\count372
+\sl@ErrorCount=\count372
+\sl@ErrorNumber=\count373
+\sl@ErrorCasualties=\count374
 \sl@TempBOE=\toks62
 \sl@BankOfErrors=\toks63
 LaTeX Info: Redefining \GenericError on input line 601.
 )
-\gmshow@@textheight=\dimen329
+\gmshow@@textheight=\dimen327
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count373
+\l__kernel_color_stack_int=\count375
 \l__pdf_internal_box=\box83
 ) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -947,16 +946,16 @@ LaTeX Font Info:    ... okay on input line 14.
 
 ABD: EveryShipout initializing macros (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count374
-\scratchdimen=\dimen330
+\scratchcounter=\count376
+\scratchdimen=\dimen328
 \scratchbox=\box84
-\nofMPsegments=\count375
-\nofMParguments=\count376
+\nofMPsegments=\count377
+\nofMParguments=\count378
 \everyMPshowfont=\toks64
-\MPscratchCnt=\count377
-\MPscratchDim=\dimen331
-\MPnumerator=\count378
-\makeMPintoPDFobject=\count379
+\MPscratchCnt=\count379
+\MPscratchDim=\dimen329
+\MPnumerator=\count380
+\makeMPintoPDFobject=\count381
 \everyMPtoPDFconversion=\toks65
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -964,12 +963,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@minilofdepth=\count380
-\c@minilotdepth=\count381
-\c@partlofdepth=\count382
-\c@partlotdepth=\count383
-\c@sectlofdepth=\count384
-\c@sectlotdepth=\count385
+\c@minilofdepth=\count382
+\c@minilotdepth=\count383
+\c@partlofdepth=\count384
+\c@partlotdepth=\count385
+\c@sectlofdepth=\count386
+\c@sectlotdepth=\count387
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -978,7 +977,7 @@ Package minitoc(hints) Info: I0046
 (minitoc(hints))             See the minitoc package documentation 
 (minitoc(hints))             for specific precautions.
 \AtBeginShipoutBox=\box85
-Package hyperref Info: Link coloring ON on input line 14.
+Package hyperref Info: Link coloring ON on input line 13.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -986,12 +985,12 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count386
+\c@section@level=\count388
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
-\c@lstlisting=\count387
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
+\c@lstlisting=\count389
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1057,17 +1056,17 @@ Overfull \hbox (24.41223pt too wide) in paragraph at lines 6--7
 
 
 ] (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/acknowledgement/acknowledgement.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 3--37
+Underfull \hbox (badness 10000) in paragraph at lines 3--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--37
+Underfull \hbox (badness 10000) in paragraph at lines 3--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--37
+Underfull \hbox (badness 10000) in paragraph at lines 3--36
 
  []
 
@@ -3484,7 +3483,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [115
 
 ]
-<Part2/Chapter2/figures/architecture_document_handler.png, id=1364, 603.25375pt x 272.01625pt>
+<Part2/Chapter2/figures/architecture_document_handler.png, id=1384, 603.25375pt x 272.01625pt>
 File: Part2/Chapter2/figures/architecture_document_handler.png Graphic file (type png)
 <use Part2/Chapter2/figures/architecture_document_handler.png>
 Package pdftex.def Info: Part2/Chapter2/figures/architecture_document_handler.png  used on input line 22.
@@ -3497,7 +3496,7 @@ LaTeX Warning: Reference `fig:architecture_document_handler' on page 116 undefin
 
 LaTeX Warning: Reference `fig:architecture_query_layer' on page 118 undefined on input line 60.
 
-<Part2/Chapter2/figures/architecture_query_layer.png, id=1396, 714.67pt x 418.56375pt>
+<Part2/Chapter2/figures/architecture_query_layer.png, id=1415, 714.67pt x 418.56375pt>
 File: Part2/Chapter2/figures/architecture_query_layer.png Graphic file (type png)
 <use Part2/Chapter2/figures/architecture_query_layer.png>
 Package pdftex.def Info: Part2/Chapter2/figures/architecture_query_layer.png  used on input line 64.
@@ -3516,7 +3515,7 @@ Overfull \hbox (12.76143pt too wide) in paragraph at lines 84--85
 
 LaTeX Warning: Reference `fig:architecture_data_parser' on page 120 undefined on input line 93.
 
-<Part2/Chapter2/figures/architecture_data_parser.png, id=1426, 661.47125pt x 324.21124pt>
+<Part2/Chapter2/figures/architecture_data_parser.png, id=1445, 661.47125pt x 324.21124pt>
 File: Part2/Chapter2/figures/architecture_data_parser.png Graphic file (type png)
 <use Part2/Chapter2/figures/architecture_data_parser.png>
 Package pdftex.def Info: Part2/Chapter2/figures/architecture_data_parser.png  used on input line 97.
@@ -3547,7 +3546,7 @@ File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 110.
  [121]
-<Part2/Chapter2/figures/SNARC_UI.png, id=1457, 405.515pt x 914.41624pt>
+<Part2/Chapter2/figures/SNARC_UI.png, id=1476, 405.515pt x 914.41624pt>
 File: Part2/Chapter2/figures/SNARC_UI.png Graphic file (type png)
 <use Part2/Chapter2/figures/SNARC_UI.png>
 Package pdftex.def Info: Part2/Chapter2/figures/SNARC_UI.png  used on input line 130.
@@ -3580,7 +3579,7 @@ LaTeX Warning: Reference `section:scenario' on page 124 undefined on input line 
 
 LaTeX Warning: Reference `fig:architecutre_diagram_annotated' on page 124 undefined on input line 14.
 
-<conclusions/figures/architecutre_diagram_annotated.png, id=1472, 1011.78pt x 760.8425pt>
+<conclusions/figures/architecutre_diagram_annotated.png, id=1491, 1011.78pt x 760.8425pt>
 File: conclusions/figures/architecutre_diagram_annotated.png Graphic file (type png)
 <use conclusions/figures/architecutre_diagram_annotated.png>
 Package pdftex.def Info: conclusions/figures/architecutre_diagram_annotated.png  used on input line 19.
@@ -3629,7 +3628,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-<conclusions/figures/lumira_sample.png, id=1486, 367.3725pt x 610.28pt>
+<conclusions/figures/lumira_sample.png, id=1506, 367.3725pt x 610.28pt>
 File: conclusions/figures/lumira_sample.png Graphic file (type png)
 <use conclusions/figures/lumira_sample.png>
 Package pdftex.def Info: conclusions/figures/lumira_sample.png  used on input line 42.
@@ -3720,7 +3719,7 @@ Overfull \hbox (17.64513pt too wide) in paragraph at lines 46--47
 LaTeX Warning: Citation `Lalithsena:WI:13' on page 135 undefined on input line 55.
 
 [135]
-<summary/figures/architecutre_diagram.png, id=1557, 1008.76875pt x 748.7975pt>
+<summary/figures/architecutre_diagram.png, id=1576, 1008.76875pt x 748.7975pt>
 File: summary/figures/architecutre_diagram.png Graphic file (type png)
 <use summary/figures/architecutre_diagram.png>
 Package pdftex.def Info: summary/figures/architecutre_diagram.png  used on input line 75.
@@ -3952,15 +3951,6 @@ Overfull \hbox (4.29214pt too wide) in paragraph at lines 281--282
 
 LaTeX Warning: Citation `Bergman:GKG:12' on page 152 undefined on input line 293.
 
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/summary/summary_french.tex:293: Undefined control sequence.
-l.293 ...t d\'{e}clencher des requ\^{e}tes ambig\�
-                                                  {u}es. Nous avons obtenu u...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 293--293
 [][][][]$\OT1/pcr/m/n/9 https : / / github . com / ahmadassaf / KBE / blob / master / results / dbpediaConcepts .
@@ -4011,921 +4001,6 @@ Underfull \vbox (badness 1270) has occurred while \output is active []
  [156])
 No file Thesis.bbl.
 [157]
-\openout2 = `appendix/appendix_D.aux'.
-
- (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/appendix/appendix_D.tex
-Appendix A.
-
-Overfull \hbox (16.09875pt too wide) in paragraph at lines 4--4
-[]\OT1/cmr/bx/n/14.4 Installation and cu-tomiza-tion in-struc-tions for Roomba 
- []
-
-
-Overfull \hbox (37.81036pt too wide) in paragraph at lines 10--10
-[]\OT1/pcr/m/n/10.95 git clone --recursive http://github.com/ahmadassaf/opendata-checker[] 
- []
-
-
-LaTeX Warning: Reference `roombaOptions' on page 158 undefined on input line 26.
-
-
-Overfull \hbox (20.49786pt too wide) in paragraph at lines 26--27
-\OT1/cmr/m/n/10.95 There are a set of op-tions that you can cus-tomize. They can be edited from \OT1/pcr/m/n/10 options.json
- []
-
-(/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/roomba_options.json)
-Overfull \hbox (3.77155pt too wide) in paragraph at lines 33--34
-[]\OT1/cmr/bx/n/10.95 cacheFolderName\OT1/cmr/m/n/10.95 : the name of cache folder sep-a-rated by /. De-fault: \OT1/cmr/bx/n/10.95 /cache/ 
- []
-
-[158
-
-
-]
-
-LaTeX Warning: Reference `roombaLocalization' on page 159 undefined on input line 41.
-
-(/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/roomba_locale.json)
-Overfull \hbox (8.37375pt too wide) in paragraph at lines 46--46
-[]\OT1/cmr/bx/n/14.4 Installation and cu-tomiza-tion in-struc-tions for Knowl-
- []
-
-[159]
-Overfull \hbox (55.11469pt too wide) in paragraph at lines 71--72
-[]\OT1/cmr/m/n/10.95 The ap-pli-ca-tion is run in the con-sole and the out-put will be avail-able in \OT1/pcr/m/n/10 /cache/result.json\OT1/cmr/m/n/10.95 . 
- []
-
-
-LaTeX Warning: Reference `customizeKBE' on page 160 undefined on input line 75.
-
-
-Overfull \hbox (20.49786pt too wide) in paragraph at lines 75--76
-\OT1/cmr/m/n/10.95 There are a set of op-tions that you can cus-tomize. They can be edited from \OT1/pcr/m/n/10 options.json
- []
-
-(/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/kbe.json) [160]
-
-LaTeX Warning: Reference `customizeKBE_CSS' on page 161 undefined on input line 92.
-
-(/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/kbe_css.json)) [161]
-\openout2 = `appendix/appendix_E.aux'.
-
- (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/appendix/appendix_E.tex
-Appendix B.
-(/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/lod_cloud_report.txt
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 1--2
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 3--4
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 20--21
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 22--23
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 35--36
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 37--38
-[][][][] 
- []
-
-[162
-
-
-
-]
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 44--45
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 46--47
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 48--49
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 50--51
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 53--54
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 55--56
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 61--62
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 63--64
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 68--69
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 70--71
-[][][][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [163]
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 91--92
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 93--94
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 110--111
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 112--113
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 122--123
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 124--125
-[][][][] 
- []
-
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [164] (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/lod_cloud_quality.txt
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 1--2
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 3--4
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 12--13
-[][][][] 
- []
-
-
-Overfull \hbox (36.2306pt too wide) in paragraph at lines 14--15
-[][][][] 
- []
-
-)) [165]
-\openout2 = `appendix/appendix_B.aux'.
-
- (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/appendix/appendix_B.tex
-Appendix C.
-(/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/dbpedia.owl
-LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1.
- [166
-
-
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [167])) [168]
-\openout2 = `appendix/appendix_F.aux'.
-
- (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/appendix/appendix_F.tex
-Appendix D.
-
-Overfull \hbox (24.82117pt too wide) in paragraph at lines 34--34
-[]\OT1/pcr/m/n/8 $.harubixMatch.WebContent.DbpediaLib.getEntitiesWithTypes(query, limit, incomingNoWeight,[] 
- []
-
-[169
-
-
-
-]
-Overfull \hbox (16.36377pt too wide) in paragraph at lines 55--56
-[]\OT1/cmr/m/n/10.95 Then the pos-si-ble en-ti-ties for the query are re-trieved by call-ing \OT1/pcr/m/n/10 getEntityWithTypes\OT1/cmr/m/n/10.95 .
- []
-
-
-Overfull \hbox (15.36333pt too wide) in paragraph at lines 55--56
-\OT1/cmr/m/n/10.95 Now the types of the en-ti-ties are com-pared (helper method \OT1/pcr/m/n/10 compareQueryWithContext\OT1/cmr/m/n/10.95 )
- []
-
-
-Overfull \hbox (58.42119pt too wide) in paragraph at lines 79--79
-[]\OT1/pcr/m/n/8 $.harubixMatch.WebContent.DBpediaLib.getCategories(tables[i].getColumn(j).getCell(k).getValue(),[] 
- []
-
-[170] (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_describe_return.json
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_describe_return.json:7: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7     “outgoingAssociations”:
-                                    []
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_describe_return.json:7: Package inputenc Error: Invalid UTF-8 byte "9C.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7     “outgoingAssociations”:
-                                    []
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_describe_return.json:7: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7     “outgoingAssociations”:
-                                    []
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_params.json
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_params.json:5: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5         {“abstract”:
-                            true,”attributes”:[{“type”:”name”},....
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_params.json:5: Package inputenc Error: Invalid UTF-8 byte "9C.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5         {“abstract”:
-                            true,”attributes”:[{“type”:”name”},....
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_params.json:5: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5         {“abstract”:
-                            true,”attributes”:[{“type”:”name”},....
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_params.json:5: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5         {“abstract”:true,”attributes”:
-                                                  [{“type”:”name”},....
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_params.json:5: Package inputenc Error: Invalid UTF-8 byte "9D.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5         {“abstract”:true,”attributes”:
-                                                  [{“type”:”name”},....
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_params.json:5: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5         {“abstract”:true,”attributes”:
-                                                  [{“type”:”name”},....
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_params.json:5: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...ract”:true,”attributes”:[{“type”:
-                                                  ”name”},..],..}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_params.json:5: Package inputenc Error: Invalid UTF-8 byte "9C.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...ract”:true,”attributes”:[{“type”:
-                                                  ”name”},..],..}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_params.json:5: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...ract”:true,”attributes”:[{“type”:
-                                                  ”name”},..],..}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_params.json:5: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...e,”attributes”:[{“type”:”name”}
-                                                  ,..],..}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_params.json:5: Package inputenc Error: Invalid UTF-8 byte "9D.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...e,”attributes”:[{“type”:”name”}
-                                                  ,..],..}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_params.json:5: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...e,”attributes”:[{“type”:”name”}
-                                                  ,..],..}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:2: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2     abstract”:
-                     ”Apple is a company...”,
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:2: Package inputenc Error: Invalid UTF-8 byte "80.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2     abstract”:
-                     ”Apple is a company...”,
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:2: Package inputenc Error: Invalid UTF-8 byte "9D.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2     abstract”:
-                     ”Apple is a company...”,
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:2: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2     abstract”: ”Apple 
-                              is a company...”,
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:2: Package inputenc Error: Invalid UTF-8 byte "9D.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2     abstract”: ”Apple 
-                              is a company...”,
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:2: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2     abstract”: ”Apple is a company...”,
-                                                 
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:2: Package inputenc Error: Invalid UTF-8 byte "9D.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2     abstract”: ”Apple is a company...”,
-                                                 
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:3: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3     ”attributes”:
-                          [{“
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:3: Package inputenc Error: Invalid UTF-8 byte "9D.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3     ”attributes”:
-                          [{“
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:3: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3     ”attributes”:
-                          [{“
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:3: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3     ”attributes”: [{“
-                               
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:3: Package inputenc Error: Invalid UTF-8 byte "9C.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3     ”attributes”: [{“
-                               
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:4: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4         type”:
-                     ”name”,
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:4: Package inputenc Error: Invalid UTF-8 byte "80.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4         type”:
-                     ”name”,
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:4: Package inputenc Error: Invalid UTF-8 byte "9D.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4         type”:
-                     ”name”,
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:4: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4         type”: ”name”,
-                                
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:4: Package inputenc Error: Invalid UTF-8 byte "9D.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4         type”: ”name”,
-                                
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:4: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4         type”: ”name”,
-                                
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:5: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5         “value”:
-                         ”Apple Inc.”
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:5: Package inputenc Error: Invalid UTF-8 byte "9C.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5         “value”:
-                         ”Apple Inc.”
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:5: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5         “value”:
-                         ”Apple Inc.”
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:5: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5         “value”: ”Apple 
-                                  Inc.”
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:5: Package inputenc Error: Invalid UTF-8 byte "9D.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5         “value”: ”Apple 
-                                  Inc.”
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:5: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5         “value”: ”Apple Inc.”
-                                         
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:5: Package inputenc Error: Invalid UTF-8 byte "9D.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5         “value”: ”Apple Inc.”
-                                         
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:7: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7     ”outgoingAssociations”:
-                                    [...]
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:7: Package inputenc Error: Invalid UTF-8 byte "9D.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7     ”outgoingAssociations”:
-                                    [...]
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_enrich_return.json:7: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7     ”outgoingAssociations”:
-                                    [...]
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_disambiguate_params.json [171]) [172] (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_disambiguate_return.json) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_match_params.json) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/seed_match_return.json) [173]) [174]
-\openout2 = `appendix/appendix_C.aux'.
-
- (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/appendix/appendix_C.tex
-Appendix E.
-(/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/licenseMappings.json [175
-
-
-
-])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [176] (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/stack-mapper.json [177]) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/util/attachments/alchemy_youtube_mapper.json [178]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [179]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [180])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [181]) [182]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Thesis.maf file.
@@ -4936,17 +4011,16 @@ Package minitoc(hints) Info: I0053
 (minitoc(hints))             please be aware that the minitoc package 
 (minitoc(hints))             facilities can not be used for new types 
 (minitoc(hints))             of floats defined by the float package.
- [183
-
+ [158
 
 ]
 
 Package longtable Warning: Table widths have changed. Rerun LaTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
-(/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/Thesis.aux (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/title/title.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/title/separator.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/title/basmalah.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/title/separator.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/title/separator.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/acronyms/acronyms.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/appendix/appendix_D.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/appendix/appendix_E.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/appendix/appendix_B.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/appendix/appendix_F.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/appendix/appendix_C.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
+(/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/Thesis.aux (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/title/title.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/title/separator.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/title/basmalah.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/title/separator.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/title/separator.aux) (/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/acronyms/acronyms.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
 
 
  *File List*
@@ -5019,7 +4093,7 @@ util/includes.tex
 subfigure.sty    2002/03/15 v2.1.5 subfigure package
 subfigure.cfg
   epsfig.sty    2017/06/25 v1.7b (e)psfig emulation (SPQR)
-mathpartir.sty    2005/12/20 version 1.2.0 Math Paragraph for Typesetting Inference Rules
+mathpartir.sty    2016/02/24 version 1.3.2 Math Paragraph for Typesetting Inference Rules
  amssymb.sty    2013/01/14 v3.01 AMS font symbols
 amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
 stmaryrd.sty    1994/03/03 St Mary's Road symbol package
@@ -5039,7 +4113,7 @@ booktabs.sty    2020/01/12 v1.61803398 Publication quality tables
  wrapfig.sty    2003/01/31  v 3.6
 algorithm.sty    2009/08/24 v0.1 Document Style `algorithm' - floating environment
    float.sty    2001/11/08 v1.3d Float enhancements (AL)
-algorithmic.sty    
+algorithmic.sty    2009/08/24 v0.1 Document Style `algorithmic'
 tabularx.sty    2020/01/15 v2.11c `tabularx' package (DPC)
 longtable.sty    2020/01/07 v4.13 Multi-page Table package (DPC)
 easylist.sty    2014/01/11 v.1.4 Numbered items with a single command.
@@ -5141,53 +4215,25 @@ conclusions/figures/architecutre_diagram_annotated.png
 conclusions/figures/lumira_sample.png
 summary/summary_french.tex
 summary/figures/architecutre_diagram.png
-appendix/appendix_D.tex
-util/attachments/roomba_options.json
-util/attachments/roomba_locale.json
-util/attachments/kbe.json
-util/attachments/kbe_css.json
-appendix/appendix_E.tex
-util/attachments/lod_cloud_report.txt
-util/attachments/lod_cloud_quality.txt
-appendix/appendix_B.tex
-util/attachments/dbpedia.owl
-appendix/appendix_F.tex
-util/attachments/seed_describe_return.json
-util/attachments/seed_enrich_params.json
-util/attachments/seed_enrich_return.json
-util/attachments/seed_disambiguate_params.json
-util/attachments/seed_disambiguate_return.json
-util/attachments/seed_match_params.json
-util/attachments/seed_match_return.json
-appendix/appendix_C.tex
-util/attachments/licenseMappings.json
-util/attachments/stack-mapper.json
-util/attachments/alchemy_youtube_mapper.json
  ***********
 
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 152.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 151.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 29677 strings out of 480608
- 529109 string characters out of 5903630
- 1046607 words of memory out of 5000000
- 42976 multiletter control sequences out of 15000+600000
- 555075 words of font info for 108 fonts, out of 8000000 for 9000
+ 28493 strings out of 480608
+ 505197 string characters out of 5903630
+ 975779 words of memory out of 5000000
+ 42611 multiletter control sequences out of 15000+600000
+ 553317 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,17n,111p,2642b,2080s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.161} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.160} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.159} has been referenced but does not exist, replaced by a fixed one
-
+ 78i,17n,111p,2642b,1453s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.158} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.157} has been referenced but does not exist, replaced by a fixed one
@@ -5504,11 +4550,11 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on "/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/Thesis.pdf" (199 pages, 6003907 bytes).
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on "/Users/ahmadassaf/Documents/PhD TelecomParisTech - EURECOM - France 2012-2015/Thesis/Thesis.pdf" (174 pages, 5900814 bytes).
 PDF statistics:
- 3606 PDF objects out of 4296 (max. 8388607)
- 3273 compressed objects within 33 object streams
- 1516 named destinations out of 1728 (max. 500000)
- 1753 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2571 PDF objects out of 2984 (max. 8388607)
+ 2276 compressed objects within 23 object streams
+ 793 named destinations out of 1000 (max. 500000)
+ 1601 words of extra memory for PDF output out of 10000 (max. 10000000)
 

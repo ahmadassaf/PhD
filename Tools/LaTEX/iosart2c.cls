@@ -43,7 +43,7 @@
 %% 2010.10.28 - pakeistas review sriftas
 
 \NeedsTeXFormat{LaTeX2e}[2000/01/26]
-\ProvidesClass{iosart2c}
+\ProvidesClass{../../Tools/LaTEX/iosart2c}
               [2010/10/28 v1.0, IOS Press]
 
 \newif\if@restonecol \@restonecolfalse

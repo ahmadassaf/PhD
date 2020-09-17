@@ -188,24 +188,3 @@
 \contentsline {subsection}{\numberline {10.8.3}Qualit\'{e} Objective des Linked Data}{157}{subsection.10.8.3}%
 \contentsline {subsection}{\numberline {10.8.4}Int\'{e}gration des Donn\'{e}es d'entreprises}{157}{subsection.10.8.4}%
 \contentsline {part}{Appendix}{157}{subsection.10.8.4}%
-\contentsline {chapter}{\numberline {A}Installation and Cutomization Instructions}{158}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Installation and cutomization instructions for Roomba}{158}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Customizing Roomba}{158}{section.A.2}%
-\contentsline {subsection}{\numberline {A.2.1}Localization}{159}{subsection.A.2.1}%
-\contentsline {section}{\numberline {A.3}Installation and cutomization instructions for Knowledge Graph Scraper}{159}{section.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}Customization}{160}{subsection.A.3.1}%
-\contentsline {chapter}{\numberline {B}Roomba Results}{162}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Roomba profiling report for the LOD Cloud}{162}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Roomba quality profiling report for the LOD Cloud}{165}{section.B.2}%
-\contentsline {chapter}{\numberline {C}DBpedia Ranked Properties in Fresnel Vocabulary}{166}{appendix.C}%
-\contentsline {chapter}{\numberline {D}SAP HANA Semantic Services API}{169}{appendix.D}%
-\contentsline {section}{\numberline {D.1}XSJS API Implementation}{169}{section.D.1}%
-\contentsline {section}{\numberline {D.2}API Documentation}{171}{section.D.2}%
-\contentsline {subsection}{\numberline {D.2.1}Entity Enrichment}{171}{subsection.D.2.1}%
-\contentsline {subsubsection}{\numberline {D.2.1.1}Describe Entity ({\small \ttfamily describe.xsjs})}{171}{subsubsection.D.2.1.1}%
-\contentsline {subsubsection}{\numberline {D.2.1.2}Enrich Entity ({\small \ttfamily enrich.xsjs})}{171}{subsubsection.D.2.1.2}%
-\contentsline {subsection}{\numberline {D.2.2}Entity Disambiguation ({\small \ttfamily disambiguate.xsjs})}{171}{subsection.D.2.2}%
-\contentsline {subsection}{\numberline {D.2.3}Schema Matching ({\small \ttfamily matchTables.xsjs})}{173}{subsection.D.2.3}%
-\contentsline {chapter}{\numberline {E}Source Code for Mappings}{175}{appendix.E}%
-\contentsline {section}{\numberline {E.1}Open Licenses Mappings}{175}{section.E.1}%
-\contentsline {section}{\numberline {E.2}Semantic Social News Aggregation Mappings}{177}{section.E.2}%

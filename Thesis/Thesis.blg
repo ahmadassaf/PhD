@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis.aux
+A level-1 auxiliary file: title/title.aux
+A level-1 auxiliary file: title/separator.aux
+A level-1 auxiliary file: title/basmalah.aux
+Already encountered file title/separator.aux
+---line 23 of file Thesis.aux
+ : \@input{title/separator.aux
+ :                            }
+I'm skipping whatever remains of this command
+Already encountered file title/separator.aux
+---line 27 of file Thesis.aux
+ : \@input{title/separator.aux
+ :                            }
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: acronyms/acronyms.aux
+The style file: plain.bst
+Database file #1: Thesis.bib
+You've used 151 entries,
+            2118 wiz_defined-function locations,
+            1304 strings with 33661 characters,
+and the built_in function-call counts, 48632 in all, are:
+= -- 4341
+> -- 2857
+< -- 21
++ -- 1124
+- -- 972
+* -- 2953
+:= -- 8224
+add.period$ -- 471
+call.type$ -- 151
+change.case$ -- 941
+chr.to.int$ -- 0
+cite$ -- 151
+duplicate$ -- 1988
+empty$ -- 3929
+format.name$ -- 972
+if$ -- 10266
+int.to.chr$ -- 0
+int.to.str$ -- 151
+missing$ -- 129
+newline$ -- 775
+num.names$ -- 302
+pop$ -- 1354
+preamble$ -- 1
+purify$ -- 788
+quote$ -- 0
+skip$ -- 1292
+stack$ -- 0
+substring$ -- 1370
+swap$ -- 401
+text.length$ -- 21
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 592
+warning$ -- 0
+while$ -- 345
+width$ -- 154
+write$ -- 1596
+(There were 2 error messages)

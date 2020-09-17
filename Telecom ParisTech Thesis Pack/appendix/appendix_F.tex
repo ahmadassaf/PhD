@@ -40,7 +40,7 @@ This method can be used externally. First of all it processes the fuzzy paramete
 
 If \texttt{multilang} is set to true, the \textbf{INTERLANGUAGE} table is searched (fuzzy, if specified). The top rated result is then used for further processing (replaces the query parameter).
 
-Then the \texttt{queryEntitiesWithTypes} method is called. If it returns no results, the \textbf{RAWPROPERTIES} are searched (example: “AAPL”). The top rated result will replace query parameter and once again \texttt{queryEntitiesWithTypes} is called.
+Then the \texttt{queryEntitiesWithTypes} method is called. If it returns no results, the \textbf{RAWPROPERTIES} are searched (example: "AAPL"). The top rated result will replace query parameter and once again \texttt{queryEntitiesWithTypes} is called.
 
 Afterwards, the biggest number of incoming associations is determined from the returned \texttt{ratingArray}. The finalScore is calculated and saved, the ratingArray is sorted by that finalScore. The finalScore is currently calculated like this:
 
