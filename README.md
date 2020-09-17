@@ -31,7 +31,7 @@ Papers
 - [What are the Important Properties of an Entity - Comparing Users and Knowledge Graph Point of View](http://2014.eswc-conferences.org/sites/default/files/eswc2014pd_submission_98.pdf) [**ESWC'14**]
 - [SNARC An Approach for Aggregating and Recommending Contextualized Social Content](http://link.springer.com/chapter/10.1007%2F978-3-642-41242-4_58) [**ESWC'13**]
 - [RUBIX A Framework for Improving Data Integration with Linked Data](http://dl.acm.org/citation.cfm?id=2422607)
-- An Objective Assessment Framework for Linked Data Quality [**Minor Revision IJSWIS Journal**]
+- [An Objective Assessment Framework for Linked Data Quality](http://www.eurecom.fr/en/publication/4844/detail/towards-an-objective-assessment-framework-for-linked-data-quality-enriching-dataset-profiles-with-quality-indicators) [**IJSWIS Journal**]
 - [Data Quality Principles in the Semantic Web](http://arxiv.org/ftp/arxiv/papers/1305/1305.4054.pdf) [**DQMST'12**]
 - [Improving Schema Matching with Linked Data](http://arxiv.org/ftp/arxiv/papers/1205/1205.2691.pdf) [**WOD'12**]
 
