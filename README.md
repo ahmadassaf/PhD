@@ -38,5 +38,5 @@ Papers
 Posters
 =======
 - [What are the Important Properties of an Entity - Comparing Users and Knowledge Graph Point of View](http://2014.eswc-conferences.org/sites/default/files/eswc2014pd_submission_98.pdf) [**ESWC14**]
-[SNARC - A Semantic Social News Aggregator and Recommender](https://hal.archives-ouvertes.fr/hal-00873637/document) [**ESWC Mashup Challenge 2013**]
+- [SNARC - A Semantic Social News Aggregator and Recommender](https://hal.archives-ouvertes.fr/hal-00873637/document) [**ESWC Mashup Challenge 2013**]
 - Observing The State of Linked Open Data Cloud Metadata [WWW15 Rejected]
