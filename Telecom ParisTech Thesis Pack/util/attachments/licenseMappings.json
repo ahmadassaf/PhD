@@ -1,0 +1,61 @@
+{
+	"license_id": ["ODC-PDDL-1.0"],
+	"disambiguations": ["Open Data Commons Public Domain Dedication and License (PDDL)"]
+}, {
+	"license_id": ["CC-BY-SA-4.0", "CC-BY-SA-3.0"],
+	"disambiguations": ["cc-by-sa", "CC BY-SA", "Creative Commons Attribution Share-Alike"]
+}, {
+	"license_id": ["CC-BY-NC-4.0"],
+	"disambiguations": ["Creative Commons Non-Commercial (Any)"]
+}, {
+	"license_id": ["ODC-BY-1.0"],
+	"disambiguations": ["Open Data Commons Attribution License"]
+}, {
+	"license_id": ["CC-BY-4.0"],
+	"disambiguations": ["Creative Commons Attribution", "CC-BY", "CreativeCommonsAttributionCCBY25"]
+}, {
+	"license_id": ["geogratis"],
+	"disambiguations": ["Geogratis"]
+}, {
+	"license_id": ["CC0-1.0"],
+	"disambiguations": ["Creative Commons CCZero", "CC0"]
+}, {
+	"license_id": ["ODbL-1.0"],
+	"disambiguations": ["Open Data Commons Open Database License (ODbL)", "ODBL"]
+}, {
+	"license_id": ["OGL-UK-1.0", "OGL-UK-2.0", "OGL-UK-3.0"],
+	"disambiguations": ["UK Open Government Licence (OGL)", "OGL"]
+}, {
+	"license_id": ["GPL-3.0", "GPL-2.0"],
+	"disambiguations": ["GNU General Public License", "gpl-2.0"]
+}, {
+	"license_id": ["ukclickusepsi"],
+	"disambiguations": ["UK PSI (Public Sector Information) Click-Use Licence", "ukclickusepsi", "UK Click Use PSI"]
+}, {
+	"license_id": ["GFDL-1.3-no-cover-texts-no-invariant-sections"],
+	"disambiguations": ["GNU Free Documentation License"]
+}, {
+	"license_id": ["MIT"],
+	"disambiguations": ["The MIT License (MIT)", "mit-license", "MIT License (MIT)", "MIT"]
+}, {
+	"license_id": ["ukcrown-withrights"],
+	"disambiguations": ["UK Crown Copyright with data.gov.uk rights", "ukcrown-withrights"]
+}, {
+	"license_id": ["canadacrown"],
+	"disambiguations": ["Canada Crown Copyright", "canada-crown"]
+}, {
+	"license_id": ["BSD-2-Clause", "BSD-3-Clause"],
+	"disambiguations": ["bsd-license"]
+}, {
+	"license_id": ["LGPL-2.1", "LGPL-3.0"],
+	"disambiguations": ["GNU Lesser General Public License", "lgpl-2.1"]
+}, {
+	"license_id": ["SPL-1.0"],
+	"disambiguations": ["sunpublic", "Sun Public License", "SPL"]
+}, {
+	"license_id": ["GPL-3.0", "GPL-2.0"],
+	"disambiguations": ["GNU General Public License", "gpl-3.0"]
+}, {
+	"license_id": ["Apache-2.0", "Apache-1.1"],
+	"disambiguations": ["Apache License", "apache"]
+}

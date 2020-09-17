@@ -1,0 +1,234 @@
+\begin{thebibliography}{10}
+
+\bibitem{Mihindukulasooriya:COLD:13}
+Nandana Mihindukulasooriya, Raul Garcia{-}Castro, and Miguel~Esteban
+  Guti{\'{e}}rrez.
+\newblock {Linked Data Platform as a novel approach for Enterprise Application
+  Integration}.
+\newblock In {\em 4$^{th}$ International Workshop on Consuming Linked Data
+  (COLD'13)}, 2013.
+
+\bibitem{Lenzerini:SIGMOD:02}
+Maurizio Lenzerini.
+\newblock {Data Integration: A Theoretical Perspective}.
+\newblock In {\em 21$^{st}$ ACM SIGMOD-SIGACT-SIGART Symposium on Principles of
+  Database Systems}, pages 233--246, 2002.
+
+\bibitem{Frischmuth:ISWC:13}
+Philipp Frischmuth, S{\"{o}}ren Auer, Sebastian Tramp, J{\"{o}}rg Unbehauen,
+  Kai Holzwei{\ss}ig, and Carl{-}Martin Marquardt.
+\newblock {Towards Linked Data based Enterprise Information Integration}.
+\newblock In {\em Workshop on Semantic Web Enterprise Adoption and Best
+  Practice Co-located with 12$^{th}$ International Semantic Web Conference
+  (ISWC'13)}, 2013.
+
+\bibitem{Frischmuth:SemWebJorunal:12}
+Philipp Frischmuth, Jakub Kl{\'\i}mek, S{\"o}ren Auer, Sebastian Tramp,
+  J{\"o}rg Unbehauen, Kai Holzwei{\ss}ig, and Carl-Martin Marquardt.
+\newblock {Linked Data in Enterprise Information Integration}.
+\newblock 2012.
+
+\bibitem{Wache:IJCAI:01}
+H.~Wache, T.~V{\"o}gele, U.~Visser, H.~Stuckenschmidt, G.~Schuster, H.~Neumann,
+  and S.~H{\"u}bner.
+\newblock {Ontology-Based Integration of Information - A Survey of Existing
+  Approaches}.
+\newblock In {\em IJCAI Workshop: Ontologies and Information}, pages 108--117,
+  2001.
+
+\bibitem{Bizer:IJSWIS:09}
+Bizer Christian, Heath T, and Berners-Lee T.
+\newblock {Linked Data - The Story So Far}.
+\newblock {\em International Journal on Semantic Web and Information Systems
+  (IJSWIS)}, 2009.
+
+\bibitem{Jentzsch:SOLOD:11}
+Jentzsch Anja, Cyganiak Richard, and Bizer Chrstian.
+\newblock {State of the lod cloud}.
+\newblock \url{http://lod-cloud.net/state/}.
+
+\bibitem{Prateek:Misc:13}
+Prateek Jain, Pascal Hitzler, Krzysztof Janowicz, and Chitra Venkatramani.
+\newblock {There's No Money in Linked Data}, 2013.
+\newblock \url{http://knoesis.wright.edu/faculty/pascal/pub/nomoneylod.pdf}.
+
+\bibitem{Boyd:Article:11}
+D~Boyd and Kate Crawford.
+\newblock {Six provocations for big data}.
+\newblock {\em A Decade in Internet Time: Symposium on the Dynamics of the
+  Internet and Society}, 2011.
+
+\bibitem{Manyika:Report:13}
+Manyika James and Doshi~Elizabeth Almasi.
+\newblock {Open data: Unlocking innovation and performance with liquid
+  information}.
+\newblock Technical report, McKinsey Business Technology Office, 2001.
+
+\bibitem{LaValle:MIT:11}
+Steve LaValle, Eric Lesser, Rebecca Shockley, Michael~S. Hopkins, and Nina
+  Kruschwitz.
+\newblock {Big Data, Analytics and the Path From Insights to Value}.
+\newblock {\em MIT Sloan Management Review}, 2011.
+
+\bibitem{Avitha:EuroJorunal:11}
+C.~Avitha, G.~Sudha Sadasivam, and Sangeetha~N Shenoy.
+\newblock {Ontology Based Semantic Integration of Heterogeneous Databases}.
+\newblock {\em European Journal of Scientific Research}, page 115, 2011.
+
+\bibitem{Lalithsena:WI:13}
+S.~Lalithsena, P.~Hitzler, A.~Sheth, and P.~Jain.
+\newblock {Automatic Domain Identification for Linked Open Data}.
+\newblock In {\em IEEE/WIC/ACM International Joint Conferences on Web
+  Intelligence (WI) and Intelligent Agent Technologies (IAT)}, pages 205--212,
+  2013.
+
+\bibitem{Cyganiak:W3C:11}
+Richard Cyganiak, Jun Zhao, Michael Hausenblas, and Keith Alexander.
+\newblock {Describing Linked Datasets with the {VoID} Vocabulary}.
+\newblock W3C Note, 2011.
+\newblock \url{http://www.w3.org/TR/void/}.
+
+\bibitem{Erickson:DCV:14}
+Maali Fadi and Erickson John.
+\newblock {Data Catalog Vocabulary (DCAT)}.
+\newblock W3C Recommendation, 2014.
+\newblock \url{http://www.w3.org/TR/vocab-dcat/}.
+
+\bibitem{Assaf:ESWC:13}
+Ahmad Assaf, Aline Senart, and Rapha{\"{e}}l Troncy.
+\newblock {SNARC - An Approach for Aggregating and Recommending Contextualized
+  Social Content}.
+\newblock In {\em The Semantic Web: ESWC 2013 Satellite Events, Revised
+  Selected Papers}, pages 319--326, 2013.
+
+\bibitem{Assaf:WOD:12}
+Ahmad Assaf, Eldad Louw, Aline Senart, Corentin Follenfant, Rapha{\"{e}}l
+  Troncy, and David Trastour.
+\newblock {RUBIX: a framework for improving data integration with linked data}.
+\newblock In {\em International Workshop on Open Data (WOD'12)}, pages 13--21,
+  2012.
+
+\bibitem{Assaf:DQMST:12}
+Ahmad Assaf and Aline Senart.
+\newblock {Data Quality Principles in the Semantic Web}.
+\newblock In {\em 6$^{th}$ International Conference on Semantic Computing ICSC
+  '12}, 2012.
+
+\bibitem{Furnas:ACM:87}
+G.~W. Furnas, T.~K. Landauer, L.~M. Gomez, and S.~T. Dumais.
+\newblock {The Vocabulary Problem in Human-System Communication}.
+\newblock {\em Communications of The ACM}, 30(11):964--971, 1987.
+
+\bibitem{Tonon:ISWC:13}
+Alberto Tonon, Michele Catasta, Gianluca Demartini, Philippe Cudr{\'e}-Mauroux,
+  and Karl Aberer.
+\newblock {TRank: Ranking Entity Types Using the Web of Data}.
+\newblock In {\em 12$^{th}$ International Semantic Web Conference (ISWC)},
+  2013.
+
+\bibitem{Miller:IEEE:03}
+Ren{\'e}e~J. Miller and Periklis Andritsos.
+\newblock {Schema Discovery}.
+\newblock {\em IEEE Data Engineering Bulletin}, 26:40--45, 2003.
+
+\bibitem{Reis:WWW:04}
+D.~C. Reis, P.~B. Golgher, A.~S. Silva, and A.~F. Laender.
+\newblock {Automatic Web News Extraction Using Tree Edit Distance}.
+\newblock In {\em 13$^{th}$ International World Wide Web Conference (WWW'04)},
+  pages 502--601, 2004.
+
+\bibitem{Wang:WWW:03}
+Jiying Wang and Frederick~H Lochovsky.
+\newblock {Data Extraction and Label Assignment for Web Databases}.
+\newblock In {\em 12$^{th}$ International World Wide Web Conference (WWW'03)},
+  pages 187--196, 2003.
+
+\bibitem{DaSilva:OTM:07}
+Altigran~Soares da~Silva, Denilson Barbosa, Jo{\~a}o M.~B. Cavalcanti, and
+  Marco A.~S. Sevalho.
+\newblock {Labeling Data Extracted from the Web}.
+\newblock In {\em On The Move Confederated International Conferences}, pages
+  1099--1116, 2007.
+
+\bibitem{Limaye:VLDB:10}
+Girija Limaye, Sunita Sarawagi, and Soumen Chakrabarti.
+\newblock {Annotating and Searching Web Tables Using Entities, Types and
+  Relationships}.
+\newblock {\em VLDB Endowment}, pages 1338--1347, 2010.
+
+\bibitem{Syed:WebSci:10}
+Zareen Syed, Tim Finin, Varish Mulwad, and Anupam Joshi.
+\newblock {Exploiting a Web of Semantic Data for Interpreting Tables}.
+\newblock In {\em 2$^{nd}$ Web Science Conference}, 2010.
+
+\bibitem{Finin:AAAI:09}
+Tim Finin, Zareen Syed, James Mayfield, Paul Mcnamee, and Christine Piatko.
+\newblock {Using Wikitology for Cross-Document Entity Coreference Resolution}.
+\newblock In {\em AAAI Spring Symposium on Learning}, 2009.
+
+\bibitem{Hassanzadeh:WWW:11}
+Oktie Hassanzadeh, Songyun Duan, Achille Fokoue, Anastasios Kementsietsidis,
+  Kavitha Srinivas, and Michael~J. Ward.
+\newblock {Helix: Online Enterprise Data Analytics}.
+\newblock In {\em 20$^{th}$ International Conference Companion on World Wide
+  Web (WWW'11)}, pages 225--228, 2011.
+
+\bibitem{Gouriten:WWW:12}
+Georges Gouriten and Pierre Senellart.
+\newblock {API Blender: A Uniform Interface to Social Platform APIs}.
+\newblock In {\em 21$^{th}$ International Conference on World Wide Web
+  (WWW'12)}, 2012.
+
+\bibitem{Hyunmo:HCI:03}
+Hyunmo Kang and Ben Shneiderman.
+\newblock {MediaFinder: an interface for dynamic personal media management with
+  semantic regions}.
+\newblock In {\em Conference on Human Factors in Computing Systems (CHI)},
+  pages 764--765. ACM, 2003.
+
+\bibitem{Bohm:ICDEW:10}
+C.~Bohm, F.~Naumann, Z.~Abedjan, D.~Fenz, T.~Grutze, D.~Hefenbrock, M.~Pohl,
+  and D.~Sonnabend.
+\newblock {Profiling linked open data with ProLOD}.
+\newblock In {\em 26th International Conference on Data Engineering Workshops
+  (ICDEW)}, 2010.
+
+\bibitem{Mendes:EDBT:12}
+Mendes PN, M\"{u}hleisen Hannes, and Bizer Christian.
+\newblock {Sieve: linked data quality assessment and fusion}.
+\newblock 2012.
+
+\bibitem{Furber:ECIS:11}
+C~F\"{u}rber and M~Hepp.
+\newblock {SWIQA - A Semantic Web information quality assessment framework}.
+\newblock 2011.
+
+\bibitem{Flemming:Thesis:10}
+Flemming Annika.
+\newblock {Quality Characteristics of Linked Data Publishing Datasources}.
+\newblock Master's thesis, Humboldt-Universität zu Berlin, 2010.
+
+\bibitem{Zaveri:SemWebJorunal:12}
+Amrapali Zaveri, Anisa Rula, Andrea Maurino, Ricardo Pietrobon, Jens Lehmann,
+  and S\"oren Auer.
+\newblock {Quality Assessment Methodologies for Linked Open Data}.
+\newblock {\em Semantic Web Journal}, 2012.
+
+\bibitem{Hartig:ISWC:09}
+Hartig Olaf and Zhao Jun.
+\newblock {Using web data provenance for quality assessment}.
+\newblock In {\em 8$^{th}$ International Semantic Web Conference (ISWC)}, 2009.
+
+\bibitem{Flouris:EvoDyn:12}
+Giorgos Flouris, Yannis Roussakis, and M~Poveda-Villal\'{o}n.
+\newblock {Using provenance for quality assessment and repair in linked open
+  data}.
+\newblock In {\em 2$^{nd}$ Joint Workshop on Knowledge Evolution and Ontology
+  Dynamics (EvoDyn'12)}, 2012.
+
+\bibitem{Harth:ISWC:09}
+Andreas Harth, Sheila Kinsella, and Stefan Decker.
+\newblock {Using naming authority to rank data and ontologies for web search}.
+\newblock In {\em 8$^{th}$ International Semantic Web Conference (ISWC)}, 2009.
+
+\end{thebibliography}

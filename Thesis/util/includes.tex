@@ -1,0 +1,176 @@
+\usepackage{url}
+\usepackage{psfrag}
+\usepackage{array,xspace}
+\usepackage[FIGTOPCAP]{subfigure}
+\usepackage{epsfig,color}
+\usepackage {mathpartir,amssymb,stmaryrd,mathtools}
+\usepackage{alltt}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{verbatim}
+\usepackage{booktabs}
+\usepackage{cases}
+\usepackage{wrapfig}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{amssymb}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{easylist}
+\usepackage{setspace}
+\usepackage{afterpage}
+\usepackage{pdflscape}
+\usepackage{caption}
+\usepackage{colortbl}
+\usepackage{rotating}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{fancyhdr}
+\usepackage{chngpage}
+\usepackage{pifont}
+\usepackage{wrapfig}
+
+\usepackage{silence}
+
+\WarningFilter{minitoc(hints)}{W0023}
+\WarningFilter{minitoc(hints)}{W0024}
+\WarningFilter{minitoc(hints)}{W0028}
+\WarningFilter{minitoc(hints)}{W0030}
+\WarningFilter{minitoc(hints)}{W0033}
+\WarningFilter*{wrapfig}{Stationary}
+
+\def\ttbraces{\let\.=\nobreak\chardef\{=`\{\chardef\}=`\}\chardef\|=`\\}
+
+\newcommand{\TODO}[1]{\textcolor{red}{\textbf{[TODO:#1]}}}
+
+\newenvironment{ttbox}{
+ \begin{center}\vspace{-.5ex}
+     \begin{tabular}{@{}|@{\,}c@{\,}|@{}}
+\hline\\[-2ex]
+\begin{minipage}[b]{.98\linewidth}
+\begin{alltt}\ttbraces\small}
+                     {\end{alltt}
+     \end {minipage}\\[.3ex]
+  \hline
+\end{tabular}
+\end{center}}
+
+\newcommand{\symb}[1]{\makebox{\it #1}}
+% shorthand for various frameworks
+
+\def \proactive {ProActive}
+\newcommand{\aspfun}{ASP${}_\text{fun}$\xspace}
+\newcommand{\ttt}[1] {\texttt{#1}}
+
+
+\newenvironment{myitemize}
+{\begin{itemize}
+\addtolength{\leftskip}{-1.5ex}
+\vspace{-.1ex}}
+{\end{itemize}\addtolength{\leftskip}{1.5ex}}
+
+\newcommand\rbeta{\to_{\beta}}
+\newcommand\rbetastar{{\to_{\beta}^*}}
+\newcommand\parbeta{\Rightarrow_{\beta}}
+\newcommand\gle{\sqsubseteq}
+\newcommand\ttgle{\mbox{\( \gle \)}}
+\newcommand\eps{\varepsilon}
+\newcommand\eg{e.g.\ }
+\newcommand\ie{i.e.\ }
+\newcommand\cf{c.f.\ }
+\newcommand\etal{{\it et al.} \ }
+\newcommand\ttcl{pre\_cl}
+\newcommand\ttsp{\mbox{\( sp \)}}
+\newcommand\ttwp{\mbox{\( wp \)}}
+\newcommand\ttRinv{R\mbox{\( ^{-1} \)}}
+\newcommand\oim{\mbox{\(\llparenthesis\)}}
+\newcommand\cim{\mbox{\(\rrparenthesis\)}}
+\newcommand\imp\Rightarrow
+\newcommand\ttrapp{"}
+
+\newcommand\tthash{\mbox{\tt \#}}
+\newcommand\ttcirc{\mbox{\( \circ\)}}
+\newcommand\ttforall{\mbox{\( \forall \)}}
+\newcommand\ttexists{\mbox{\( \exists \)}}
+\newcommand\ttequiv{\mbox{\( \equiv \)}}
+\newcommand\ttexistsun{\mbox{\( \exists^1 \)}}
+\newcommand\ttin{\mbox{\(\in\)}}
+\newcommand\ttnin{\mbox{\(\notin\)}}
+\newcommand\ttTimes{\mbox{\(\times\)}}
+\newcommand\ttalpha{\mbox{\( \alpha \)}}
+\newcommand\ttbeta{\mbox{\( \beta \)}}
+\newcommand\ttlam{\mbox{\( \lambda \)}}
+\newcommand\ttsig{\mbox{\( \sigma \)}}
+\newcommand\tteps{\mbox{\( \varepsilon \)}}
+\newcommand\ttOmega{\mbox{\( \Omega \)}}
+\newcommand\ttpi{\mbox{\( \pi \)}}
+\newcommand\ttgam{\mbox{\( \gamma \)}}
+\newcommand\ttneg{\mbox{\( \lnot \)}}
+\newcommand\ttor{\mbox{\( \lor \)}}
+\newcommand\ttwedge{\mbox{\( \land \)}}
+\newcommand\ttimp{\mbox{\( \longrightarrow\)}}
+\newcommand\ttImp{\mbox{\( \Longrightarrow\)}}
+\newcommand\ttfun{\mbox{\( \Rightarrow\)}}
+\newcommand\ttssubseteq{\mbox{\( \subseteq\)}}
+\newcommand\ttrbeta{\mbox{\( \rbeta\)}}
+\newcommand\ttred{\mbox{\( \to_R\)}}
+\newcommand\ttuparrow{\mbox{\( \uparrow\)}}
+\newcommand\ttfred{\mbox{\( \to_F\)}}
+\newcommand\ttored{\mbox{\( \to_O\)}}
+
+\newcommand\ttrbetastar{\mbox{\( \rbetastar\)}}
+\newcommand\ttparbeta{\mbox{\( \parbeta\)}}
+\newcommand\ttneq{\mbox{\( \neq \)}}
+\newcommand\ttbigcup{\mbox{\( \bigcup \)}}
+\newcommand\ttcap{\mbox{\( \cap \)}}
+\newcommand\ttcup{\mbox{\( \cup \)}}
+\newcommand\ttdef{\mbox{\( \equiv_{df} \)}}
+\newcommand\ttsubset{\mbox{\( \subseteq \)}}
+\newcommand\tttimes{\mbox{\( \times \)}}
+\newcommand\ttvdash{\mbox{\( \vDash \)}}
+\newcommand\ttvdashs{\mbox{\( \vdash \)}}
+\newcommand\ttleq{\mbox{\( \leq \)}}
+\newcommand\ttmapsto{\mbox{\( \mapsto \)}}
+\newcommand\ttleftarrow{\mbox{\( \gets \)}}
+\newcommand\ttleadsto{\mbox{\( \leadsto \)}}
+\newcommand\ttrefone{\mbox{\( (1)\)}}
+\newcommand\ttreftwo{\mbox{\( (2)\)}}
+\newcommand\ttlbrack{\mbox{\(\llbracket\)}}
+\newcommand\ttrbrack{\mbox{\( \rrbracket \)}}
+\newcommand\ttstar{\mbox{\({}^*\)}}
+\newcommand\ttmetaall{\mbox{\( \bigwedge \)}}
+\newcommand\ttminusone{\mbox{\({}^{-1}\)}}
+\newcommand{\oarrow}[3]{\,\relbar\Mapsfromchar\!#1,#2,#3\!\Mapstochar\to}
+
+
+\newcommand\ttoarrow[3]{\mbox{\(\relbar\Mapsfromchar\)}#1,#2,#3\mbox{\(\Mapstochar\to_O\)}}
+
+\newcommand\ttfarrow[3]{\mbox{\(\relbar\Mapsfromchar\)}#1,#2,#3\mbox{\(\Mapstochar\to_F\)}}
+\newcommand\ttsubi{\mbox{\({}_{i}\)}}
+\newcommand \keyword[1]{\textcolor{red}{\bf{#1}}}
+
+\DeclareMathOperator{\futs}{futs}
+\DeclareMathOperator{\Prim}{Prim}
+\DeclareMathOperator{\Comp}{Comp}
+\DeclareMathOperator{\Enqueue}{Enqueue}
+\DeclareMathOperator{\findResult}{findRes}
+\DeclareMathOperator{\dom}{dom}
+
+\makeatletter
+  \newcommand\tinyv{\@setfontsize\tinyv{7.5pt}{6.5}}
+\makeatother
+
+\makeatletter
+\newcommand*{\gmshow@textheight}{\textheight}
+\newdimen\gmshow@@textheight
+\g@addto@macro\landscape{%
+  \gmshow@@textheight=\hsize
+  \renewcommand*{\gmshow@textheight}{\gmshow@@textheight}%
+}
+\def\Gm@vrule{%
+  \vrule width 0.2pt height\gmshow@textheight depth\z@
+}%
+\makeatother

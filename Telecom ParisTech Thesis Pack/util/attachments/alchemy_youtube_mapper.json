@@ -1,0 +1,142 @@
+{
+	"alchemy": "Arts & Entertainment",
+	"alchemyCode" : "arts_entertainment",
+	"DMOZ": ["Arts","Society"],
+	"youtube": ["Entertainment", "Comedy", "Music", "Film"],
+	"youtube_edu": [
+	{
+		"id": 1,
+		"title": "Fine Arts"
+	},
+	{
+		"id": 17,
+		"title": "Language Arts"
+	}]
+},
+{
+	"alchemy": "Business",
+	"alchemyCode" : "business",
+	"DMOZ": ["Business", "News", "Shopping"],
+	"youtube": ["News", "Videoblog"],
+	"youtube_edu": [
+	{
+		"id": 65,
+		"title": "Business"
+	}]
+},
+{
+	"alchemy": "Computers & Internet",
+	"alchemyCode" : "computer_internet",
+	"DMOZ": ["Computers", "Science"],
+	"youtube": ["Tech", "Howto", "Videoblog"],
+	"youtube_edu": [
+	{
+		"id": 109,
+		"title": "Computer Science"
+	},
+	{
+		"id": 47,
+		"title": "Science"
+	},
+	{
+		"id": 39,
+		"title": "Mathematics"
+	}
+	]
+},
+{
+	"alchemy": "Culture & Politics",
+	"alchemyCode" : "culture_politics",
+	"DMOZ": ["News", "Society"],
+	"youtube": ["News", "People"],
+	"youtube_edu": [
+	{
+		"id": 10,
+		"title": "History & Social Sciences"
+	},
+	{
+		"id": 375,
+		"title": "Social Sciences"
+	}
+	]
+},
+{
+	"alchemy": "Gaming",
+	"alchemyCode" : "gaming",
+	"DMOZ": ["Games"],
+	"youtube": ["Games", "Entertainment"]
+},
+{
+	"alchemy": "Health",
+	"alchemyCode" : "health",
+	"DMOZ": ["Health", "Society"],
+	"youtube": ["People", "News", "Education"],
+	"youtube_edu": [
+	{
+		"id": 6,
+		"title": "Health"
+	}]
+},
+{
+	"alchemy": "Law & Crime",
+	"alchemyCode": "law_crime",
+	"DMOZ": ["News", "Society"],
+	"youtube": ["News"],
+	"youtube_edu": [
+	{
+		"id": 193,
+		"title": "Law"
+	},
+	{
+		"id": 10,
+		"title": "History & Social Sciences"
+	}]
+},
+{
+	"alchemy": "Religion",
+	"alchemyCode": "religion",
+	"DMOZ": ["Reference", "Society"],
+	"youtube": ["News", "Education"],
+	"youtube_edu": [
+	{
+		"id": 178,
+		"title": "Religion"
+	},
+	{
+		"id": 10,
+		"title": "History & Social Sciences"
+	}]
+},
+{
+	"alchemy": "Recreation",
+	"alchemyCode": "recreation",
+	"DMOZ": ["Recreation", "Society"],
+	"youtube": ["Entertainment", "Comedy"]
+},
+{
+	"alchemy": "Science & Technology",
+	"alchemyCode": "science_technology",
+	"DMOZ": ["Science", "News"],
+	"youtube": ["Tech", "News", "Howto", "Education"],
+	"youtube_edu": [
+	{
+		"id": 47,
+		"title": "Science"
+	},
+	{
+		"id": 56,
+		"title": "University"
+	}]
+},
+{
+	"alchemy": "Sports",
+	"alchemyCode": "sports",
+	"DMOZ": ["Sports", "News"],
+	"youtube": ["Sports", "News", "Autos"]
+},
+{
+	"alchemy": "Weather",
+	"alchemyCode": "weather",
+	"DMOZ": ["News"],
+	"youtube": ["News"]
+}

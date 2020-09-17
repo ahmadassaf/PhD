@@ -1,0 +1,19 @@
+{
+    "matches": [
+    {
+        column1: 0,
+        column2: 0,
+        score: 0.627861,
+        suggestedName: "Plant" 
+    },{
+        column1 :1,
+        column2 :1,
+        score: 0.868278,
+        suggestedName: "Company" 
+    },{
+        column1: 2,
+        column2: 2,
+        score: 0.952602,
+        suggestedName: "Country" 
+    }]
+}

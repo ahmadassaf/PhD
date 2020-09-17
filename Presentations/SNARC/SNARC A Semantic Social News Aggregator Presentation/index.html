@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>SNARC - A Semantic Social News Aggregator</title>
+
+	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+	<meta name="author" content="Hakim El Hattab">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+	<link rel="stylesheet" href="css/fontello.css">
+
+	<!-- For syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+	<script>
+	document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+	</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<h1>SNARC</h1>
+					<h3>A Semantic Social News Aggregator</h3>
+					<p>
+						<small><a class="presentor" href="http://ahmadassaf.com">Ahmad Assaf</a> / <a class="presentor" href="http://twitter.com/ahmadaassaf">@ahmadaassaf</a>
+							<a href="">&nbsp;-&nbsp;Aline Senart</a>
+							<a href="http://www.eurecom.fr/~troncy/">&nbsp;-&nbsp;Raphael Troncy</a> / <a href="https://twitter.com/rtroncy">@rtroncy</a>
+						</small>
+						<div class="logos">
+							<img class="logo" width="200px" height="100px" src="img/sap.gif" >
+							<img class="logo" width="200xp" height="100px" src="img/eurecom.gif" >
+						</div>
+					</p>
+				</section>
+
+				<section>
+					<h2>Heads Up</h2>
+					<p>
+						A service that semantically annotate web documents, queries social endpoints and reconcile results in order to provide rich and up-to-date contextual information 
+					</p>
+				</section>
+				<section>
+					<h2>The Social Web has changed the way we disseminate information</h2>
+					<img width="80" height="80" src="img/twitter.png" >
+					<img width="80" height="80" src="img/google-plus.png" >	
+					<img width="80" height="80" src="img/vimeo.png" >	
+					<img width="80" height="80" src="img/youtube.png" >
+					<img width="80" height="80" src="img/google.png" >
+				</section>
+				<section>
+					<section>
+						<img width="100%" height="50%" src="img/architecture-part1.png" >
+					</section>
+					<section>
+						<img width="90%" height="100%" src="img/semanticDoc-json.png" >
+					</section>
+				</section>
+				<section>
+					<img width="100%" height="100%" src="img/architecture-part2.png" >
+				</section>
+				<section>
+					<img width="100%" height="100%" src="img/architecture-part3.png" >
+				</section>
+				<section>
+					<section>
+						<h2>SNARC as Chrome Extension</h2>
+					</section>
+					<section>
+						<img width="100%" height="100%" src="img/screenshot_plain.png" >
+					</section>
+					<section>
+						<img width="100%" height="100%" src="img/screenshot_annotated.png" >
+					</section>
+					<section>
+						<img width="100%" height="80%" src="img/screenshot_social.png" >
+					</section>
+				</section>
+				<section>
+					<h2>Where will you find it</h2>
+					<ol>
+						<li><i class="icon-globe"></i><a href="http://ahmadassaf.com/SNARC">SNARC Home Page</a></li>
+						<li><i class="icon-github-circled"></i><a href="https://github.com/ahmadassaf/snarc">SNARC on Github</a></li>
+						<li><i class="icon-chrome"></i><a href="https://chrome.google.com/webstore/detail/snarc-a-social-news-aggre/cbmdbedimcokfideebbdpdgbhlljheko">Get the Chrome Extension</a></li>
+						<li><i class="icon-wordpress"></i><a href="http://blog.ahmadassaf.com">Check it as a Wordpress plugin</a></li>
+					</ol>
+				</section>
+				<section>
+					<section data-state="soothe">
+						<h2>Please be Kind</h2>
+						<p> SNARC distribute queries across various API and processes results, it might take some time so pleae be patient with it</p>
+					</section>
+				</section>
+				<section>
+					<h1>THANK YOU</h1>
+					<h2><i class="icon-twitter"></i><a href="http://twitter.com/ahmadaassaf">@ahmadassaf</a></h2>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+				{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+				{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+					]
+				});
+			</script>
+
+		</body>
+		</html>

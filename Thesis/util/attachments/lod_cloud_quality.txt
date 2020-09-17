@@ -1,0 +1,35 @@
+--------------------------------------------------------------------------------------
+                              Dataset Quality Report
+--------------------------------------------------------------------------------------
+!completeness! quality Score     :   @50.22%@
+!availability! quality Score     :   @23.32%@
+!licensing! quality Score        :   @21.14%@
+!freshness! quality Score        :   @79.49%@
+!correctness! quality Score      :   @72.36%@
+!comprehensibility! quality Score:   @31.63%@
+!provenance! quality Score       :   @74.07%@
+!Average! total quality Score    :   @50.32%@
+--------------------------------------------------------------------------------------
+                              Quality Indicators Average Error %
+--------------------------------------------------------------------------------------
+Supports multiple serializations                                   :   @11.35%@
+Has different data access points                                   :   @19.31%@
+Uses datasets description vocabularies                             :   @88.80%@
+Existence of descriptions about its size                           :   @86.30%@
+Existence of descriptions about its structure  (MIME Type, Format) :   @83.67%@
+Existence of descriptions about its organization and categorization:   @8.33%@
+Existence of dereferencable links for the dataset and its resources:   @0.45%@
+Existence of an RDF dump that can be downloaded by users           :   @91.51%@
+Existence of queryable endpoints that respond to direct queries    :   @96.14%@
+Existence of valid dereferencable URLs   (respond to HTTP request) :   @42.41%@
+Existence of human and machine readable license information        :   @61.58%@
+Existence of dereferencable links to the full license information  :   @96.14%@
+Existence of timestamps that can keep track of its modifications   :   @20.51%@
+Includes the correct MIME type for the content                     :   @48.92%@
+Includes the correct size for the content                          :   @32.71%@
+Absence of Syntactic errors on the links level                     :   @1.28%@
+Existence of at least one exemplary RDF file                       :   @99.61%@
+Existence of general information (title, URL, description)         :   @5.89%@
+Existence of mailing list, message board or point of contact       :   @99.61%@
+Existence of metadata that describes its authoritative information :   @21.75%@
+Usage of versioning                                                :   @30.12%@

@@ -1,0 +1,8 @@
+{
+	cache_dbpedia_concepts       : true,
+	limit_dbpedia_concepts       : true,
+	limit_dbpedia_instances      : true,
+	limit_dbpedia_concepts_value : 10,
+	limit_dbpedia_instances_value: 10,
+	proxy  : null
+}

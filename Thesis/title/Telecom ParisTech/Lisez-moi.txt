@@ -1,0 +1,3 @@
+Fichier source : TPT_Premiere.tex
+A compiler avec pdflatex
+utiliser les .pdf   

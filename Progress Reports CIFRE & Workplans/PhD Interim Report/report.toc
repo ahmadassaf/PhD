@@ -1,0 +1,30 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Research Problems}{3}
+\contentsline {section}{\numberline {1.1}Introduction}{3}
+\contentsline {section}{\numberline {1.2}Challenges}{4}
+\contentsline {section}{\numberline {1.3}Proposal}{5}
+\contentsline {subsection}{\numberline {1.3.1}Contributions on Geodata}{6}
+\contentsline {subsection}{\numberline {1.3.2}Contributions on visualizations}{7}
+\contentsline {subsection}{\numberline {1.3.3}W3C Government Linked Data Working Group Contributions}{7}
+\contentsline {chapter}{\numberline {2}Modeling Geographic Information in LOD}{9}
+\contentsline {section}{\numberline {2.1}Introduction}{9}
+\contentsline {section}{\numberline {2.2}Geographic information in the Web of Data}{10}
+\contentsline {subsection}{\numberline {2.2.1}LOD Cloud Review}{10}
+\contentsline {subsection}{\numberline {2.2.2}Geodata Provider and Access}{11}
+\contentsline {section}{\numberline {2.3}Geodata Modeling Approach}{11}
+\contentsline {subsection}{\numberline {2.3.1}Vocabularies for Features}{11}
+\contentsline {subsection}{\numberline {2.3.2}Vocabularies for Geometry Shape}{12}
+\contentsline {section}{\numberline {2.4}Aligning Geo Vocabularies}{13}
+\contentsline {subsection}{\numberline {2.4.1}Existing Vocabularies}{14}
+\contentsline {subsection}{\numberline {2.4.2}GeOnto Alignment Process}{14}
+\contentsline {section}{\numberline {2.5}GeoSPARQL Standard}{15}
+\contentsline {section}{\numberline {2.6}Discussion}{16}
+\contentsline {chapter}{\numberline {3}Visualization Tools in Linked Government Data}{18}
+\contentsline {section}{\numberline {3.1}Introduction}{18}
+\contentsline {section}{\numberline {3.2}Usage Scenarii for Application}{20}
+\contentsline {section}{\numberline {3.3}Tools for Visualizing Data on the Semantic Web}{20}
+\contentsline {section}{\numberline {3.4}DVIA: A vocabulary Describing VIsualization Application}{21}
+\contentsline {section}{\numberline {3.5}Examples of Visualization}{23}
+\contentsline {subsection}{\numberline {3.5.1}French Election Application}{23}
+\contentsline {subsection}{\numberline {3.5.2}Confomaton Application}{23}
+\contentsline {chapter}{\numberline {4}Conclusions and Future work}{24}

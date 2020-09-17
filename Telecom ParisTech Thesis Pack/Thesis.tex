@@ -1,0 +1,151 @@
+\documentclass[a4paper,11pt,twoside]{ThesisStyle}
+\usepackage{etex}
+
+\include{util/definitions}
+\include{util/includes}
+
+\makeatletter
+\g@addto@macro{\UrlBreaks}{\UrlOrds}
+\makeatother
+
+\setstretch{1.15}
+\setlength{\parindent}{0.2in}
+
+\begin{document}
+
+\vspace{3cm}
+
+\pagenumbering{roman}
+
+\include{title/separator}
+\include{title/basmalah}
+\include{title/separator}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  To Do List  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%\listoftodos
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Aknowledgment  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\let\cleardoublepage\clearpage
+\addcontentsline{toc}{section}{Acknowledgements}
+\markboth{Acknowledgements}{Acknowledgements}
+\input{acknowledgement/acknowledgement}
+\include{title/separator}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Abstract  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{section}{Abstract}
+\markboth{Abstract}{Abstract}
+\chapter*{Abstract}
+\input{abstract/abstract}
+
+\addcontentsline{toc}{section}{Contents}
+\markboth{Contents}{Contents}
+
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  List of Figures  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{section}{List of Figures}
+\listoffigures
+\let\cleardoublepage\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  List of Tables  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{section}{List of Tables}
+\listoftables
+\let\cleardoublepage\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  List of Listings  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{section}{List of Listings}
+\lstlistoflistings
+\let\cleardoublepage\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  List of Publications  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{section}{List of Publications}
+\markboth{List of Publications}{List of Publications}
+\input{appendix/publications}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Acronyms  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{section}{Acronyms}
+\markboth{Acronyms}{Acronyms}
+\include{acronyms/acronyms}
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Introduction  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{introduction/introduction}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Part 1  %%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\part{Towards A Complete Dataset Profile} \label{part:dataset_profiling}
+\input{part1/introduction}
+\input{part1/Background/background}
+\input{part1/Chapter1/main}
+\input{part1/Chapter2/main}
+\input{part1/Chapter3/main}
+\input{part1/conclusion}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Part 2  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\part{Towards Enriched Enterprise Data} \label{part:data_integration}
+\input{part2/introduction}
+\input{part2/Background/background}
+\input{part2/Chapter1/main}
+\input{part2/Chapter2/main}
+\input{part2/conclusion}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Conclusion %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\bookmarksetup{startatroot}
+\input{conclusions/conclusions}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  French Summary %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\part{R\'{e}sum\'{e} de Th\`{e}se}\label{part:french_summary}
+\input{summary/summary_french}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Bibliography %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{plain}
+\bibliography{../Util/Bibliography/bibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Appendix %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\part}[1]{\addcontentsline{toc}{part}{#1}}
+\let\cleardoublepage\clearpage
+\part{Appendix} \label{part:appendix}
+\appendix
+\include{appendix/appendix_D}
+\include{appendix/appendix_E}
+\include{appendix/appendix_B}
+\include{appendix/appendix_F}
+\include{appendix/appendix_C}
+
+\chapter*{}
+\chaptermark{}
+\vspace{-15ex}
+\end{document}

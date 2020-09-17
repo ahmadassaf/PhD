@@ -1,0 +1,118 @@
+@prefix ns1: <http://www.w3.org/2004/09/fresnel#> .
+@prefix ns2: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.eurecom.fr/id/fresnel/academicjournalGKPDefaultLens> a ns1:Lens ;
+    ns1:classLensDomain <http://dbpedia.org/ontology/AcademicJournal> ;
+    ns1:group <http://data.eurecom.fr/id/fresnel/group/academicjournalGroup> ;
+    ns1:purpose ns1:defaultLens ;
+    ns1:showProperties <http://data.eurecom.fr/def/eip#relatedtopics>,
+        <http://data.eurecom.fr/def/eip#seeresultsabout> ;
+    ns2:wasDerivedFrom <http://www.google.com/insidesearch/features/search/knowledge.html> .
+
+<http://data.eurecom.fr/id/fresnel/actorGKPDefaultLens> a ns1:Lens ;
+    ns1:classLensDomain <http://dbpedia.org/ontology/Actor> ;
+    ns1:group <http://data.eurecom.fr/id/fresnel/group/actorGroup> ;
+    ns1:purpose ns1:defaultLens ;
+    ns1:showProperties <http://data.eurecom.fr/def/eip#albums>,
+        <http://data.eurecom.fr/def/eip#awards>,
+        <http://data.eurecom.fr/def/eip#books>,
+        <http://data.eurecom.fr/def/eip#born>,
+        <http://data.eurecom.fr/def/eip#children>,
+        <http://data.eurecom.fr/def/eip#died>,
+        <http://data.eurecom.fr/def/eip#education>,
+        <http://data.eurecom.fr/def/eip#filmmusiccredits>,
+        <http://data.eurecom.fr/def/eip#height>,
+        <http://data.eurecom.fr/def/eip#movies>,
+        <http://data.eurecom.fr/def/eip#moviesandtvshows>,
+        <http://data.eurecom.fr/def/eip#nationality>,
+        <http://data.eurecom.fr/def/eip#nominations>,
+        <http://data.eurecom.fr/def/eip#parents>,
+        <http://data.eurecom.fr/def/eip#partner>,
+        <http://data.eurecom.fr/def/eip#peoplealsosearchfor>,
+        <http://data.eurecom.fr/def/eip#seeresultsabout>,
+        <http://data.eurecom.fr/def/eip#siblings>,
+        <http://data.eurecom.fr/def/eip#spouse>,
+        <http://data.eurecom.fr/def/eip#tvshows>,
+        <http://data.eurecom.fr/def/eip#upcomingmovie> ;
+    ns2:wasDerivedFrom <http://www.google.com/insidesearch/features/search/knowledge.html> .
+
+<http://data.eurecom.fr/id/fresnel/administrativeregionGKPDefaultLens> a ns1:Lens ;
+    ns1:classLensDomain <http://dbpedia.org/ontology/AdministrativeRegion> ;
+    ns1:group <http://data.eurecom.fr/id/fresnel/group/administrativeregionGroup> ;
+    ns1:purpose ns1:defaultLens ;
+    ns1:showProperties <http://data.eurecom.fr/def/eip#area>,
+        <http://data.eurecom.fr/def/eip#collegesanduniversities>,
+        <http://data.eurecom.fr/def/eip#countyseat>,
+        <http://data.eurecom.fr/def/eip#founded>,
+        <http://data.eurecom.fr/def/eip#islandgroup>,
+        <http://data.eurecom.fr/def/eip#localtime>,
+        <http://data.eurecom.fr/def/eip#peoplealsosearchfor>,
+        <http://data.eurecom.fr/def/eip#population>,
+        <http://data.eurecom.fr/def/eip#rivers>,
+        <http://data.eurecom.fr/def/eip#seeresultsabout>,
+        <http://data.eurecom.fr/def/eip#unemploymentrate>,
+        <http://data.eurecom.fr/def/eip#university>,
+        <http://data.eurecom.fr/def/eip#weather> ;
+    ns2:wasDerivedFrom <http://www.google.com/insidesearch/features/search/knowledge.html> .
+
+<http://data.eurecom.fr/id/fresnel/adultactorGKPDefaultLens> a ns1:Lens ;
+    ns1:classLensDomain <http://dbpedia.org/ontology/AdultActor> ;
+    ns1:group <http://data.eurecom.fr/id/fresnel/group/adultactorGroup> ;
+    ns1:purpose ns1:defaultLens ;
+    ns1:showProperties <http://data.eurecom.fr/def/eip#awards>,
+        <http://data.eurecom.fr/def/eip#books>,
+        <http://data.eurecom.fr/def/eip#born>,
+        <http://data.eurecom.fr/def/eip#children>,
+        <http://data.eurecom.fr/def/eip#died>,
+        <http://data.eurecom.fr/def/eip#education>,
+        <http://data.eurecom.fr/def/eip#height>,
+        <http://data.eurecom.fr/def/eip#movies>,
+        <http://data.eurecom.fr/def/eip#moviesandtvshows>,
+        <http://data.eurecom.fr/def/eip#parents>,
+        <http://data.eurecom.fr/def/eip#peoplealsosearchfor>,
+        <http://data.eurecom.fr/def/eip#seeresultsabout>,
+        <http://data.eurecom.fr/def/eip#siblings>,
+        <http://data.eurecom.fr/def/eip#spouse>,
+        <http://data.eurecom.fr/def/eip#tvshows> ;
+    ns2:wasDerivedFrom <http://www.google.com/insidesearch/features/search/knowledge.html> .
+
+<http://data.eurecom.fr/id/fresnel/aircraftGKPDefaultLens> a ns1:Lens ;
+    ns1:classLensDomain <http://dbpedia.org/ontology/Aircraft> ;
+    ns1:group <http://data.eurecom.fr/id/fresnel/group/aircraftGroup> ;
+    ns1:purpose ns1:defaultLens ;
+    ns1:showProperties <http://data.eurecom.fr/def/eip#cruisespeed>,
+        <http://data.eurecom.fr/def/eip#designer>,
+        <http://data.eurecom.fr/def/eip#enginetype>,
+        <http://data.eurecom.fr/def/eip#firstflight>,
+        <http://data.eurecom.fr/def/eip#introduced>,
+        <http://data.eurecom.fr/def/eip#length>,
+        <http://data.eurecom.fr/def/eip#manufacturer>,
+        <http://data.eurecom.fr/def/eip#manufacturers>,
+        <http://data.eurecom.fr/def/eip#range>,
+        <http://data.eurecom.fr/def/eip#retired>,
+        <http://data.eurecom.fr/def/eip#seeresultsabout>,
+        <http://data.eurecom.fr/def/eip#topspeed>,
+        <http://data.eurecom.fr/def/eip#unitcost>,
+        <http://data.eurecom.fr/def/eip#weight>,
+        <http://data.eurecom.fr/def/eip#wingspan> ;
+    ns2:wasDerivedFrom <http://www.google.com/insidesearch/features/search/knowledge.html> .
+
+<http://data.eurecom.fr/id/fresnel/airlineGKPDefaultLens> a ns1:Lens ;
+    ns1:classLensDomain <http://dbpedia.org/ontology/Airline> ;
+    ns1:group <http://data.eurecom.fr/id/fresnel/group/airlineGroup> ;
+    ns1:purpose ns1:defaultLens ;
+    ns1:showProperties <http://data.eurecom.fr/def/eip#ceo>,
+        <http://data.eurecom.fr/def/eip#founded>,
+        <http://data.eurecom.fr/def/eip#founder>,
+        <http://data.eurecom.fr/def/eip#founders>,
+        <http://data.eurecom.fr/def/eip#headquarters>,
+        <http://data.eurecom.fr/def/eip#peoplealsosearchfor>,
+        <http://data.eurecom.fr/def/eip#recentposts>,
+        <http://data.eurecom.fr/def/eip#seeresultsabout>,
+        <http://data.eurecom.fr/def/eip#stockprice>,
+        <http://data.eurecom.fr/def/eip#trackflightstatus> ;
+    ns2:wasDerivedFrom <http://www.google.com/insidesearch/features/search/knowledge.html> .

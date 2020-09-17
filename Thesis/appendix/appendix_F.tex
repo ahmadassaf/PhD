@@ -1,0 +1,116 @@
+\chapter{SAP HANA Semantic Services API} \label{appendix:appendixF}
+
+\section{XSJS API Implementation}
+\label{section:xsjsAPI}
+
+There are four different \texttt{XSJS} files in this project:
+
+\begin{itemize}
+	\item \texttt{disambiguate.xsjs}: Gets most appropriate entities / categories for a searchword
+	\item \texttt{describe.xsjs}: Loads the properties which are available for an entity
+	\item \texttt{enrich.xsjs}: Retrieves the data, filtering is possible \item \texttt{tableMatch.xsjs}: Matches two tables by sending their cell values
+\end{itemize}
+
+The \texttt{disambiguate.xsjs} and \texttt{tableMatch.xsjs} use an XSJS lib called \\\texttt{DbpediaLib.xsjslib}. You can import it with this code:
+
+\begin{verbatim}
+$.import("harubixMatch.WebContent","DBpediaLib");
+\end{verbatim}
+
+This library contains the core functionalities of our services. You can use the functions in this library to build your own API extension. Just add another XSJS file, import with the command above, and you can use one of those functions:
+
+\scriptsize
+\begin{verbatim}
+$.harubixMatch.WebContent.DbpediaLib.queryEntitiesWithTypes(query,fuzzyStr, limit)
+\end{verbatim}
+\normalsize
+
+This will query for a search word in the \textbf{TYPES} table. It returns a JSON object. More specifically, it will return an array containing all found entities (called \texttt{entities}). For each element of entities the text search score (\texttt{txtScore}) and the number of incoming associations (\texttt{incomingNo}) is returned, as well as an array of the associated types (\texttt{types}). Each element in types has a name and an order. Each element of entities also has a \texttt{finalScore}, but this is set to zero and will be calculated in the method \texttt{getEntitiesWithTypes}.
+
+Generally, you should not use this method at all, as it is a helper method for \texttt{getEntitiesWithTypes}
+
+\scriptsize
+\begin{verbatim}
+$.harubixMatch.WebContent.DbpediaLib.getEntitiesWithTypes(query, limit, incomingNoWeight,
+fuzzy, multilang)
+\end{verbatim}
+\normalsize
+
+This method can be used externally. First of all it processes the fuzzy parameter (which should be double) into a string. Here \texttt{textSearch=compare} is added for all queries except for the \textbf{INTERLANGUAGE} table. This is done to achieve similar text search scores for both search with and without fuzzy. The \textbf{INTERLANGUAGE} table currently does not support \texttt{textSearch=compare} because of its column type (has to be \texttt{SHORTTEXT} or \texttt{TEXT} for that)
+
+If \texttt{multilang} is set to true, the \textbf{INTERLANGUAGE} table is searched (fuzzy, if specified). The top rated result is then used for further processing (replaces the query parameter).
+
+Then the \texttt{queryEntitiesWithTypes} method is called. If it returns no results, the \textbf{RAWPROPERTIES} are searched (example: “AAPL”). The top rated result will replace query parameter and once again \texttt{queryEntitiesWithTypes} is called.
+
+Afterwards, the biggest number of incoming associations is determined from the returned \texttt{ratingArray}. The finalScore is calculated and saved, the ratingArray is sorted by that finalScore. The finalScore is currently calculated like this:
+
+\scriptsize
+\begin{verbatim}
+$.harubixMatch.WebContent.DBpediaLib.getEntityTypeWithContext(query,context,limit)
+\end{verbatim}
+\normalsize
+
+This returns one entity which fits most likely in the context given (JSON object). For each entity in the context the method \texttt{getCategories} is called. From this collection of types, a type vector is created – a list of types, and if a type occurs more than once, its score is added to the existing entry. Then the list is sorted by score.
+
+Then the possible entities for the query are retrieved by calling \texttt{getEntityWithTypes}. Now the types of the entities are compared (helper method \texttt{compareQueryWithContext}) to the created type vector, starting with the most likely entity and the highest rated score. As soon as there is a match, the corresponding entity/type is returned.
+
+\scriptsize
+\begin{verbatim}
+$.harubixMatch.WebContent.DBpediaLib.getEntities(query, limit, incomingNoWeight,
+fuzzy, multilang, verbose)
+\end{verbatim}
+\normalsize
+
+This is a small method to only return entities and no types.
+
+\scriptsize
+\begin{verbatim}
+$.harubixMatch.WebContent.DBpediaLib.getCategories(query, limit, incomingNoWeight,
+orderWeight, fuzzy, multilang, verbose)
+\end{verbatim}
+\normalsize
+
+Here, only categories are returned. The order of the categories is determined by the \texttt{finalScore} of the entity they belong to and their order. The higher the order, the less specific the category is. The parameter \texttt{orderWeight} influences how much is subtracted from the finalScore in case the value of order exceeds 1.
+
+Table match for example uses this function for every cell value:
+
+\scriptsize
+\begin{verbatim}
+$.harubixMatch.WebContent.DBpediaLib.getCategories(tables[i].getColumn(j).getCell(k).getValue(),
+20, 0.15, 0.1, fuzzy, multilang, false);
+\end{verbatim}
+\normalsize
+
+\section{API Documentation}
+
+\subsection{Entity Enrichment}
+
+\subsubsection{Describe Entity (\texttt{describe.xsjs})}
+
+\lstset{basicstyle=\scriptsize, backgroundcolor=\color{white}, frame=single, caption= {Entity description API call return values sample}, label="Entity description API call return values sample", captionpos=b}
+\lstinputlisting[breaklines=true,language=json]{util/attachments/seed_describe_return.json}
+
+\subsubsection{Enrich Entity (\texttt{enrich.xsjs})}
+
+\lstset{basicstyle=\scriptsize, backgroundcolor=\color{white}, frame=single, caption= {API call parameters for entity enrichment}, label="API call parameters for entity enrichment", captionpos=b}
+\lstinputlisting[breaklines=true,language=json]{util/attachments/seed_enrich_params.json}
+
+\lstset{basicstyle=\scriptsize, backgroundcolor=\color{white}, frame=single, caption= {Entity enrichment API call return values sample}, label="Entity enrichment API call return values sample", captionpos=b}
+\lstinputlisting[breaklines=true,language=json]{util/attachments/seed_enrich_return.json}
+
+\subsection{Entity Disambiguation (\texttt{disambiguate.xsjs})}
+
+\lstset{basicstyle=\scriptsize, backgroundcolor=\color{white}, frame=single, caption= {API call parameters for entity disambiguation}, label="API call parameters for entity disambiguation", captionpos=b}
+\lstinputlisting[breaklines=true,language=json]{util/attachments/seed_disambiguate_params.json}
+
+\lstset{basicstyle=\scriptsize, backgroundcolor=\color{white}, frame=single, caption= {Entity disambiguation API call return values sample}, label="Entity disambiguation API call return values sample", captionpos=b}
+\lstinputlisting[breaklines=true,language=json]{util/attachments/seed_disambiguate_return.json}
+
+
+\subsection{Schema Matching (\texttt{matchTables.xsjs})}
+
+\lstset{basicstyle=\scriptsize, backgroundcolor=\color{white}, frame=single, caption= {API call parameters for schema matching}, captionpos=b, label="API call parameters for schema matching"}
+\lstinputlisting[breaklines=true,language=json]{util/attachments/seed_match_params.json}
+
+\lstset{basicstyle=\scriptsize, backgroundcolor=\color{white}, frame=single, caption= {Schema matching API call return values sample}, captionpos=b, label="Schema matching API call return values sample"}
+\lstinputlisting[breaklines=true,language=json]{util/attachments/seed_match_return.json}

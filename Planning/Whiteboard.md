@@ -1,0 +1,2 @@
+![Planning Diagram](https://www.dropbox.com/s/mdn9c3guizu6nme/whiteboard_SAP_session_15_4_15.jpg?dl=1)
+![Introduction Diagram](https://www.dropbox.com/s/77or4m6e0rndw8u/Thesis_introduction_structure_planning.jpg?dl=1)

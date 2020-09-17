@@ -1,0 +1,313 @@
+\usepackage[left=1.4in,right=1.3in,top=1.1in,bottom=1.1in,includefoot,includehead,headheight=13.6pt]{geometry}
+
+\usepackage[absolute]{textpos}
+\usepackage{fancyhdr}
+\usepackage[usenames,dvipsnames,table]{xcolor}
+
+% Table of contents for each chapter
+\usepackage[nottoc, notlof, notlot]{tocbibind}
+\usepackage{minitoc}
+\setcounter{minitocdepth}{2}
+\mtcindent=15pt
+
+% Glossary / list of abbreviations
+\usepackage[intoc]{nomencl}
+\renewcommand{\nomname}{List of Abbreviations}
+\makenomenclature
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ToDo Code
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{xargs}
+\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\info}[2][1=]{\todo[linecolor=green,backgroundcolor=green!25,bordercolor=green,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=magenta,backgroundcolor=magenta!25,bordercolor=magenta,#1]{#2}}
+\newcommandx{\fix}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PDF Code
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{ifpdf}
+
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+  \DeclareGraphicsExtensions{.jpg}
+  \usepackage{bookmark, hyperref}
+\else
+  \usepackage{graphicx}
+  \DeclareGraphicsExtensions{.ps,.eps}
+  \usepackage[dvipdfm]{bookmark, hyperref}
+\fi
+
+\graphicspath{{.}{images/}}
+
+% definitions.
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+
+% Some useful commands and shortcut for maths:  partial derivative and stuff
+
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+\def\abs{\operatorname{abs}}
+\def\argmax{\operatornamewithlimits{arg\,max}}
+\def\argmin{\operatornamewithlimits{arg\,min}}
+\def\diag{\operatorname{Diag}}
+\newcommand{\eqRef}[1]{(\ref{#1})}
+\renewcommand\contentsname{Table of Contents}
+
+\renewcommand{\texttt}[1]{{\small\ttfamily #1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fancy Header Style Options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Sets fancy header and footer
+\pagestyle{fancy}
+% Delete current footer settings
+\fancyfoot{}
+% Page number (boldface) in left on even
+\fancyhead[LE,RO]{\bfseries\thepage}
+% pages and right on odd pages
+\fancyhead[RE]{\small\bfseries\nouppercase{\leftmark}}      % Chapter in the right on even pages
+\fancyhead[LO]{\small\bfseries\nouppercase{\rightmark}}     % Section in the left on odd pages
+\let\headruleORIG\headrule
+\renewcommand{\headrule}{\color{black} \headruleORIG}
+\renewcommand{\headrulewidth}{1.0pt}
+\arrayrulecolor{black}
+
+\fancypagestyle{plain}{
+  \fancyhead{}
+  \fancyfoot{}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% Clear Header Style on the Last Empty Odd pages
+\makeatletter
+
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
+  \hbox{}%
+  \thispagestyle{empty}%              % Empty header styles
+  \newpage%
+  \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+
+\makeatother
+
+\fancypagestyle{lscape}{
+  \fancyhf{}
+  \fancyfoot[LE]{
+    \begin{textblock}{10}(1,22){\rotatebox{90}{\small\bfseries\nouppercase\leftmark}}\end{textblock}
+    \begin{textblock}{1}(1,1){\rotatebox{90}{\thepage}}\end{textblock}
+    \begin{textblock}{10}(1.5,0.4){\rotatebox{90}{\rule{29cm}{1pt}}}\end{textblock}
+  }
+  \fancyfoot[LO] {
+    \begin{textblock}{1}(1,1){\rotatebox{90}{\thepage}}\end{textblock}
+    \begin{textblock}{10}(1,22){\rotatebox{90}{\small\bfseries\nouppercase\rightmark}}\end{textblock}
+    \begin{textblock}{10}(1.5,0.4){\rotatebox{90}{\rule{29cm}{1pt}}}\end{textblock}
+  }
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\fancypagestyle{standard}{
+  \fancyhf{}
+  % Page number (boldface) in left on even
+  \fancyhead[LE,RO]{\bfseries\thepage}
+  % pages and right on odd pages
+  \fancyhead[RE]{\small\bfseries\nouppercase{\leftmark}}      % Chapter in the right on even pages
+  \fancyhead[LO]{\small\bfseries\nouppercase{\rightmark}}     % Section in the left on odd pages
+  \renewcommand{\headrule}{\color{black} \headruleORIG}
+  \renewcommand{\headrulewidth}{1.0pt}
+}
+
+\setlength{\TPHorizModule}{1cm}
+\setlength{\TPVertModule}{1cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Prints your review date and 'Draft Version' (From Josullvn, CS, CMU)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\reviewtimetoday}[2]{\special{!userdict begin
+    /bop-hook{gsave 20 710 translate 45 rotate 0.8 setgray
+      /Times-Roman findfont 12 scalefont setfont 0 0   moveto (#1) show
+      0 -12 moveto (#2) show grestore}def end}}
+
+\newenvironment{maxime}[1]
+{
+\vspace*{0cm}
+\hfill
+\begin{minipage}{0.5\textwidth}
+\hrulefill $\:$ {\bf #1}\\
+\it
+}
+{
+
+\hrulefill
+\vspace*{0.5cm}%
+\end{minipage}
+}
+
+\let\minitocORIG\minitoc
+\renewcommand{\minitoc}{\minitocORIG \vspace{1.5em}}
+
+\newenvironment{bulletList}%
+{ \begin{list}%
+  {$\bullet$}%
+  {\setlength{\labelwidth}{25pt}%
+   \setlength{\leftmargin}{30pt}%
+   \setlength{\itemsep}{\parsep}}}%
+{ \end{list} }
+
+\newtheorem{definition}{D?finition}
+\renewcommand{\epsilon}{\varepsilon}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Centered page environment
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\Author}{Ahmad A Assaf}
+\newcommand{\Subject}{Enabling Self Service Data Provisioning Through Semantic Enrichment of Data}
+
+\newenvironment{vcenterpage}
+{\newpage\vspace*{\fill}\thispagestyle{empty}\renewcommand{\headrulewidth}{0pt}}
+{\vspace*{\fill}}
+\usepackage{listings}
+\hypersetup{
+    unicode=false,                        % non-Latin characters in Acrobat?s bookmarks
+    pdftoolbar=true,                      % show Acrobat?s toolbar?
+    pdfmenubar=true,                      % show Acrobat?s menu?
+    pdffitwindow=false,                   % window fit to page when opened
+    pdfstartview={FitH},                  % fits the width of the page to the window
+    plainpages=false,
+    pdftitle={My title},                  % title
+    pdfauthor={Author},                   % author
+    pdfsubject={Subject},                 % subject of the document
+    pdfcreator={Author},                  % creator of the document
+    pdfnewwindow=true,                    % links in new window
+    colorlinks=true,                      % false: boxed links; true: colored links
+    linkcolor=ForestGreen,                % color of internal links
+    citecolor=red,                        % color of links to bibliography
+    filecolor=magenta,                    % color of file links
+    urlcolor=blue                         % color of external links
+}
+
+\newlength{\plarg}
+\setlength{\plarg}{16cm}
+\newlength{\glarg}
+\setlength{\glarg}{17cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Listings Definitions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\colorlet{punct}{red!60!black}
+\definecolor{background}{gray}{0.97}
+\definecolor{delim}{RGB}{20,105,176}
+
+\lstdefinelanguage{json}{
+    basicstyle=\small\ttfamily,
+    showstringspaces=false,
+    breaklines=true,
+    frame=lines,
+    captionpos=b,
+    aboveskip=3mm,
+    belowskip=3mm,
+    backgroundcolor=\color{white},
+    literate=
+      {:}{{{\color{punct}{:}}}}{1}
+      {,}{{{\color{punct}{,}}}}{1}
+      {[}{{{\color{delim}{[}}}}{1}
+      {]}{{{\color{delim}{]}}}}{1},
+}
+
+\lstdefinestyle{base}{
+  basicstyle=\scriptsize,
+  emptylines=1,
+  breaklines=true,
+  moredelim=**[is][\color{red}]{@}{@},
+  moredelim=**[is][\color{olive}]{!}{!},
+  moredelim=**[is][\color{blue}]{*}{*},
+}
+
+\renewcommand{\ttdefault}{pcr}
+\lstdefinelanguage{owl} {
+  language=xml,
+  basicstyle={\footnotesize\ttfamily},
+  numbers=none,
+  backgroundcolor=\color{white},
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  keywordstyle={\bfseries\color{blue}},
+  commentstyle={\color{red}\textit},
+  stringstyle=\color{magenta},
+  frame=lines,
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=4,
+  morekeywords={rdf,rdfs,owl},
+  moredelim=*[s][\ttfamily]{:}{:} %Newly added line
+}
+
+%% define N3 look and feel
+\lstdefinelanguage{N3}{
+      frame=lines,
+      keywordstyle={\bfseries\color{red}},
+      commentstyle={\color{blue}\textit},
+      stringstyle=\color{magenta},
+      morekeywords=[1]{@prefix, a },
+      morestring=[b]",
+      morecomment=[s]{<}{>}, % missusing comments for URIrefs
+      otherkeywords={^, [, ], (, )},%
+      sensitive=false%
+}[keywords,comments,strings]
+
+\listfiles
+
+\newcommand\CyrGuillemot{%
+  \def\selectguillfont{\fontencoding{OT2}\fontfamily{wncyr}\selectfont}
+  \def\guillemotleft{\selectguillfont\symbol{60}}
+  \def\guillemotright{\selectguillfont\symbol{62}}
+}
+
+\newcommand\PlGuillemot{%
+  \def\selectguillfont{\fontencoding{OT4}\fontfamily{cmr}\selectfont}
+  \def\guillemotleft{\selectguillfont\symbol{174}}
+  \def\guillemotright{\selectguillfont\symbol{175}}
+}
+
+\newcommand\LaGuillemot{%
+  \def\selectguillfont{\fontencoding{U}\fontfamily{lasy}%
+    \fontseries{m}\fontshape{n}\selectfont}
+  \def\guillemotleft{\selectguillfont\hbox{\symbol{40}%
+    \kern-0.20em\symbol{40}}}
+  \def\guillemotright{\selectguillfont\hbox{\symbol{41}%
+    \kern-0.20em\symbol{41}}}
+}
+
+\newcommand\ECGuillemot{%
+  \def\selectguillfont{\fontencoding{T1}\fontfamily{cmr}\selectfont}
+  \def\guillemotleft{\selectguillfont\symbol{19}}
+  \def\guillemotright{\selectguillfont\symbol{20}}
+}
+
+\newcommand\LMGuillemot{%
+  \def\selectguillfont{\fontencoding{T1}\fontfamily{lmr}\selectfont}
+  \def\guillemotleft{\selectguillfont\symbol{19}}
+  \def\guillemotright{\selectguillfont\symbol{20}}
+}
+
+\newcommand\CyrGLeft{\CyrGuillemot\guillemotleft}
+\newcommand\CyrGRight{\CyrGuillemot\guillemotright}
+\newcommand\PlGLeft{\PlGuillemot\guillemotleft}
+\newcommand\PlGRight{\PlGuillemot\guillemotright}
+\newcommand\LaGLeft{\LaGuillemot\guillemotleft}
+\newcommand\LaGRight{\LaGuillemot\guillemotright}
+\newcommand\ECGLeft{\ECGuillemot\guillemotleft}
+\newcommand\ECGRight{\ECGuillemot\guillemotright}
+\newcommand\LMGLeft{\LMGuillemot\guillemotleft}
+\newcommand\LMGRight{\LMGuillemot\guillemotright}
+
+\newcolumntype{L}{>{\arraybackslash}m{13cm}}
+
+\newcommand{\algorithmicrequire}{\textbf{Require:}}
+\newcommand{\algorithmicensure}{\textbf{Ensure:}}

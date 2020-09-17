@@ -1,0 +1,139 @@
+\chapter{Background} \label{chapter:part2-background}
+\graphicspath{{Part2/Background/figures/}}
+
+\section{Data Integration}\label{section:dataIntegration}
+
+\textit{Data Integration (DI)} is the process of providing the user with a unified view of data residing at different sources~\cite{Lenzerini:DIT:02}. Data Integration is a challenging task since these sources are in many real-world applications, mutually inconsistent.
+
+Various approaches and methodologies have been proposed to solve the DI problem in the enterprise:
+\begin{itemize}
+	\item XML as a hierarchical data format can be used as a uniform standard uniform for data representation. However, extending XML to provide complex mappings and source descriptions is difficult.
+	\item SOA can be seen as a holistic approach for distributed systems communication and architecture. In its core, SOA aims at minimizing impedance in the architecture paving the way for easier communication between data sources. However, in~\cite{Frischmuth:ISWC:13}, the authors argue that SOA is well-suited for transactional processing rather than an approach for data integration.
+	\item Ontologies can be used as a rich format to describe queries and data mappings between schemas and sources. However, developing ontologies require specific skills and it is difficult to provide a complete model that captures the dynamics of the enterprise.
+	\item Linked Data paradigm is a slightly different approach from the ontology-based by exploiting Semantic Web technologies like RDF to represent enterprise taxonomies. The LD approach allows terms to be easily reused and extended.
+\end{itemize}
+
+Data integrated from various resources should be loaded into a central repository often referred to as a Data Warehouse (DW).
+
+A \textit{Data Warehouse} is a large repository where integrated data from different resources reside for the purpose of analysis. Feeding data into the warehouse is done using the Extract-Transform-Load (ETL) process: First the data is extracted from the operational source systems (ERP, CRM, etc.) and then the transformation process is applied in order to unify the data into the warehouse format. Finally the loading is applied to import the data to the warehouse.
+
+\section{Business Intelligence}\label{section:businessIntelligence}
+
+\textit{Business Intelligence (BI)} is the set of techniques and tools for transforming raw data into meaningful and useful information to be used in the decision making process~\cite{Rud:Wiley:09}. BI consists of various number of components including Data Integration, Data Quality and Data Warehousing among others.
+
+\subsection{Multidimensional Model}
+
+The traditional relational model is efficient in performing "online" transactions. However, it has clear shortcomings when the objective is to analyze large scale data. The multidimensional model is designed specifically to support data analysis by presenting data as facts with associated numerical values. The multidimensional model has the following fundamental concepts:
+
+\begin{itemize}
+	\item \textbf{Dimensions}: Textual data used for labeling, selection, filtering and grouping of data at various levels of details. A dimension is organized into a containment-like hierarchy composed of number of levels, each of which represents a specific level of details. The instances of the dimensions are typically called dimension values or members; each value or member belongs to a particular level. Figure~\ref{fig:dimension} shows an example of a hierarchical geography dimension.
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\linewidth]{dimension.png}
+	\caption{Example of a hierarchical geography dimension}
+	\label{fig:dimension}
+\end{figure}
+
+	\item \textbf{Measures}: A measure has two components, a numerical property and a formula (usually an aggregation function such as sum or average). Measures generally represent the properties of a chosen fact.
+	\item \textbf{Facts}: Facts are the objects that present the subject of the analysis. They are mostly defined by their combination of dimension values. a fact has a certain granularity which is determined by the levels from which its dimension values are drawn.
+	\item \textbf{Cubes}: A cube is a multidimensional data structure for capturing and analyzing data. It generalizes the tabular spreadsheet such as there can be any number of dimensions (in contrast to only two in the tabular spreadsheets).
+	\item \textbf{Pivot Tables}: A pivot table is a two dimensional table of data with associated subtotals and totals. It may also allow the user to use hierarchies to drill down or roll up. It can be also nested into several dimensions on one axis or pivoted such as the dimensions can be rotated (swapping x and y).
+\end{itemize}
+
+\subsubsection{Relational Representation}
+
+There are two principal ways of representing dimensions:
+
+\begin{itemize}
+	\item \textbf{Star Schema}: A star schema has one table for each dimension. This table has a key column and one column for each level of the dimension. Furthermore, a star schema has a Fact Table that hold a row for each multidimensional fact and has a column for each dimension. The primary key in the dimension tables is typically a surrogate key (ID). This results in better storage, prevention of key-reuse problems and more efficient query processing.
+	\item \textbf{Snowflake Schema}: Very similar to the star schema. However, it contains several dimension tables for each dimension. This results in removing the redundancy found in star schemas. As a result, querying the schema is now harder since several joins must be applied resulting in longer processing time to compute the results.
+\end{itemize}
+
+\subsubsection{Analysis and Querying}
+
+Querying multidimensional is done by special systems that aggregate measure values over a range of dimension values. One of the widely used systems is the Online Analytical Processing (OLAP). OLAP systems provide fast answers to queries that aggregate large amounts of data to find overall trends; the results are presented in a multidimensional model. As opposed to the well known Online Analytical Transaction Processing (OLTP) the focus is on data analysis rather than transactions. OLAP systems generally never delete nor update its data; only additions of new data takes place periodically, thus OLAP systems are optimized for retrieving and summarizing large amounts of data.
+
+The support for analysis and querying on cubes is done using these operations:
+
+\begin{itemize}
+	\item \textbf{Rolling up}: Rolling up causes the data view to go up to a higher cross grained view
+	\item \textbf{Drilling down and Drilling Out}: The opposite of rolling up, the data view becomes more fine grained and detailed. Drilling out occurs when a drill down is done by including an additional dimension. After a drill out the measure values are spread out among more cells.
+	\item \textbf{Slicing and Dicing}: A slice happens when an analyst wishes to consider a subset of the cube, so he selects a specific value for a dimension. It is possible to slice the result further in what is called a dice. Slicing generally refer to filtering out data, and dicing refers to grouping out the filtered data.
+	\item \textbf{Drill across}: This is done when we do operation on more than one cube that share one or more conformed dimensions. The data from these cubes is combines by these shared dimensions, this in relational terms corresponds to a Full Outer-join
+	\item \textbf{Pivot}: Allows an analyst to rotate the cube in space to see its various faces.
+\end{itemize}
+
+\subsection{SAP BI Application Suite}
+
+The SAP BI application suite can be divided into the following main areas:
+
+\begin{itemize}
+	\item \textbf{Analysis Solutions}: Empower business analysts with the ability to analyze multidimensional data and quickly answer sophisticated business questions.
+	\item \textbf{Discovery Solutions}: Provide an interface to access, transform and visualize data in a self-serviced way.
+	\item \textbf{Predictive Solutions}: Provide intuitive and easy-to-use environment to design and visualize complex predictive models.
+	\item \textbf{Dashboard Solutions}: Allow creation of rich visualizations that allow users to interact in real time with their data.
+	\item \textbf{Reporting Solutions}: Offers powerful interfaces that enable not only analysts, but also non-technical users to ask spontaneous and iterative business questions about their data. The output is a static reports representing snapshots of the data.
+\end{itemize}
+
+\section{SAP High Performance Analytic Appliance (HANA)}
+
+SAP High Performance Analytic Appliance (HANA)\footnote{\url{http://hana.sap.com/}} is an in-memory data platform that is deployable as an on-premise appliance, or in the cloud. It is a revolutionary platform that is best suited for performing real-time analytics, and developing and deploying real-time applications. At the core of this real-time data platform is the SAP HANA database (see Figure~\ref{fig:hana_architecture}) which leverages the cheap price of memory chips and does the computation operations all in the memory instead of disk. For BI and Real-time analytics HANA specializes on:
+
+\begin{itemize}
+	\item \textbf{Data Warehousing}: Provides real-time data warehousing which allows businesses to rapidly access their Enterprise Data Warehouse (EDW).
+	\item \textbf{Operational Reporting}: Provides real-time insights and Business Intelligence from transaction systems such as ERP.
+	\item \textbf{Predictive and text analysis on Big Data}: Provides the ability to perform predictive and text analysis on large volumes of data in real-time. With its text search/analysis capabilities SAP HANA also provides a robust way to leverage unstructured data.
+\end{itemize}
+
+\begin{figure}[ht]
+\centering
+	\includegraphics[scale=0.5]{hana_bi.png}
+	\caption{SAP's High Performance Analytic Appliance (HANA) with the SAP BI suite}
+	\label{fig:hana_architecture}
+\end{figure}
+
+HANA has both columns and rows stores for data storage, the user specifies on which data store he wishes to put his data. Row stores are fit for traditional transaction systems (traditional databases) when transactions are done on row level. However BI queries or analytical queries are done on subsets of columns as the database does not need to access all the elements in a row in order to fetch the required data.
+
+HANA has mainly three views on data:
+
+\begin{itemize}
+	\item \textbf{Attribute Views}: Used to model dimensions and perform all types of joins. In most cases used to model master data like entities (like Product, Location, Business Partner). For example, our analyst \textbf{Dan} have accident details scattered in more than one table. However, he needs to model an accident as one entity. To do that, he needs to create an attribute view that aggregates data from different tables into one single entity which is Accident.
+	\item \textbf{Analytical Views}: Used for calculation and aggregation. Adds transactional tables and measures (key figures), calculates aggregates (e.g., Number of Products sold per year), joins Attribute Views. It is defined at least on one fact table. In most cases used for exposing transactional data by joining the fact table with Attribute Views.
+	\item \textbf{Calculation Views}: Performs complex views calculations that are not possible with other views.
+\end{itemize}
+
+\subsection{HANA XS-Engine}
+
+Consuming data from HANA needs a lot of pre-configuration. To ease this process, the XS-Engine was created to act as lightweight application server within HANA DB. It is a presentation logic on client side that encapsulates control flow logic and calculation logic while providing REST and ODATA interfaces.
+
+\subsection{Active Information Store (AIS)} \label{ais}
+
+The Active Information Store (AIS) is a graph engine built on top of HANA. AIS provides storage and query services on graphs. AIS offers a flexible data representation model (see Figure~\ref{fig:ais}) that contains:
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[scale=0.5]{ais_model.png}
+	\caption{AIS data model}
+	\label{fig:ais}
+\end{figure}
+
+\begin{itemize}
+	\item \textbf{Info Items}: They are the vertices in the graph. They represent a unique single identifiable data instance. Info Items can have a set of properties that describe them. Each Info Item is identified by its URI and must belong to at least one workspace. A Workspace establishes a scope for visibility and access control.
+	\item \textbf{Associations}: They are the edges in the graph. Associations can further have attributes which describe them.
+	\item \textbf{Attributes}: Typed properties used to describe Info Items and Associations.
+\end{itemize}
+
+\section{Social Web}\label{social-web}
+
+The social web (Web 2.0) is about websites and services designed and developed to support and foster social interactions~\cite{Porter:NewRiders:08}. The social web spans services like blogs, wikis, crowdsourcing and social media services. These services are often accompanied with APIs that allow rapid community driven expansion of complementary services. In the work of this thesis, we use the following popular social media services:
+
+\begin{itemize}
+	\item \textbf{Twitter}\footnote{\url{http://twitter.com}}: A service allowing users to send rich short messages of 140 characters called "tweets" or "microposts". Twitter allows users to "follow" each other and start private conversations. Users can interact with tweets by replying or forwarding (re-tweeting) them. Tweets can contain multimedia parts like photos or videos and can be tagged with certain keywords preceded by the hash character called "hashtag" e.g., \#tag.
+	\item \textbf{Google+}\footnote{\url{https://plus.google.com}}: A social media service owned by Google focusing on driving interest-based conversations and interactions. In its core, Google+ evolves around the concept of "circles" which enable users organize people into groups or lists. Similarly to Twitter, posts can be tagged with hash-tags entered manually by users or added automatically by Google+.
+	\item \textbf{Stack Exchange}\footnote{\url{http://stackexchange.com}}: A question and answer group of websites. Each website specializes in a topic like technology, politics, food, etc. Users are encouraged to provide answers and helpful comments by providing a reputation award system allowing the content to be self-moderating.
+	\item \textbf{YouTube}\footnote{\url{http://youtube.com}}: A video sharing website owned by Google. The site allows users to upload, view and share videos. Moreover, YouTube allows live streaming of events with the ability to interact with the video feed through comments.
+	\item \textbf{Vimeo}\footnote{\url{http://vimeo.com}}: Another video sharing website with a more focused community of professionals in various areas than YouTube.
+	\item \textbf{Slideshare}\footnote{\url{http://slideshare.com}}: A slide hosting service where users can upload their presentations in various formats to be viewed and shared. The website also supports documents, videos and webinars and acts as an educational and e-learning hub.
+\end{itemize}
+

@@ -1,0 +1,59 @@
+\addvspace {10\p@ }
+\contentsline {xchapter}{Introduction}{1}{chapter.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Architecture diagram for enabling self-service data provisioning\relax }}{5}{figure.caption.16}%
+\contentsline {xpart}{Towards A Complete Dataset Profile}{11}{part.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Background}{12}{chapter.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of RDF representation of an address\relax }}{14}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The LOD cloud as of May, 2007\relax }}{17}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Open Data ecosystem\relax }}{18}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Heat map of Open Government Data adoption according to the Open Data Barometer 2015\relax }}{20}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Linking Open Data cloud diagram 2014, by Max Schmachtenberg, Christian Bizer, Anja Jentzsch and Richard Cyganiak colored by licensing types. \url {http://www.cosasbuenas.es/blog/how-o-is-lod-2015}\relax }}{21}{figure.caption.22}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Dataset Profiles and Models}{23}{chapter.3}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Information sections and groups across data models \relax }}{30}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces CKAN data model\relax }}{35}{figure.caption.25}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Dataset Profiles Generation and Validation}{43}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Processing pipeline for validating and generating dataset profiles\relax }}{47}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Screenshot for Roomba command line tool\relax }}{48}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces LOD Cloud error \% by section\relax }}{59}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces LOD Cloud error \% by information type\relax }}{61}{figure.caption.36}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Objective Linked Data Quality Assessment}{62}{chapter.5}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Average Error \% per quality indicator for LOD group\relax }}{79}{figure.caption.39}%
+\contentsline {xpart}{Towards Enriched Enterprise Data}{86}{part.2}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Background}{87}{chapter.6}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Example of a hierarchical geography dimension\relax }}{88}{figure.caption.43}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces SAP's High Performance Analytic Appliance (HANA) with the SAP BI suite\relax }}{91}{figure.caption.44}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces AIS data model\relax }}{92}{figure.caption.45}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Data Integration in the Enterprise}{95}{chapter.7}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces RUBIX Activity Workflow\relax }}{100}{figure.caption.49}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Screenshot showing the results mapping view in RUBIX\relax }}{101}{figure.caption.50}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Google knowledge graph panel for the city of Nice, France\relax }}{111}{figure.caption.57}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Semantic Social News Aggregation}{115}{chapter.8}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces SNARC's Document Handler\relax }}{116}{figure.caption.59}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces SNARC's Query Layer\relax }}{118}{figure.caption.60}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces SNARC's Data Parser\relax }}{120}{figure.caption.61}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces SNARC's User Interface - The Google Chrome Extension\relax }}{122}{figure.caption.62}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Conclusions and Future Perspectives}{124}{chapter.9}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Annoteted architecture diagram for enabling self-service data provisioning\relax }}{125}{figure.caption.64}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces UI Prototype of semantic data enrichment in SAP Lumira\relax }}{126}{figure.caption.65}%
+\contentsline {xpart}{R\'{e}sum\'{e} de Th\`{e}se}{131}{part.3}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Introduction}{131}{chapter.10}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Sch\'{e}ma de l'architecture des donn\'{e}es pour permettre l'acces en libre-service\relax }}{136}{figure.caption.66}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Installation and Cutomization Instructions}{158}{appendix.A}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Roomba Results}{162}{appendix.B}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{DBpedia Ranked Properties in Fresnel Vocabulary}{166}{appendix.C}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{SAP HANA Semantic Services API}{169}{appendix.D}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Source Code for Mappings}{175}{appendix.E}%

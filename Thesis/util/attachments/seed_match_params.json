@@ -1,0 +1,11 @@
+{
+    fuzzy: Parameters for fuzzy search {
+        values: 0-1.0 [float],
+        default: 1.0 [fuzzy disabled]
+    },
+    multilang: Search in INTERLANGUAGE table {
+        values: true or false,
+        default: false
+    },
+    debug: Returns information useful for debugging i.e. weighted types per cell
+}

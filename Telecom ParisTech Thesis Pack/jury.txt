@@ -1,0 +1,53 @@
+=============================
+==  PhD Defense Procedure  ==
+=============================
+
+* If the PhD student wants to write, and present, his/her thesis in English, he/she will need to ask for the Director of the PhD school’s authorization (see template)
+* If he/she chooses to write the thesis in English, he/she will need to add to the final manuscript a French text of 25 pages to give the main ideas of the thesis, the results, conclusions and the scientific links of the different chapters. This text could be done after the defense.
+
+Calendar:
+* 2 months before the defense:
+  - the jury proposition (see doc enclosed, the title of the thesis must be written in FRENCH, and THIS TITLE WILL BE THE OFFICIAL ONE ON ALL THE DEFENSE’S DOCUMENTS)
+  - 2 first versions of the thesis (one PDF + another one without the bibliographies' chapter)
+I will send those 3 documents to Télécom ParisTech and they will give me their agreement for the thesis to be defended.
+
+* 8 weeks before the defense: We will have to send the manuscript to the jury members. The reviewers will have 4 weeks to prepare their report and give their agreement for the defense.
+
+* 15 days before the defense: If the reviewers reports are positives, we will send the thesis announcement, using 2 abstracts (1 in French and 1 in English).
+
+* The thesis defense envelope will be given to the advisor the defense's day. When the defense will be finished, the PhD student will have 2 months to prepare his/her administrative ending procedures.
+
+Jury proposition: the jury members must be maximum 8 persons. In those 8 persons, you must find the advisor(s), 2 reviewers, and the other jury persons.
+Conditions to be reviewers:
+  - they mustn’t be from EDITE or Telecom ParisTech or EURECOM or having links with the PhD student, as co-publications,
+  - they must have an HDR or being the same level than a HDR.
+If the advisor is not Professor, we must count a Professor from Télécom ParisTech or EURECOM in the examinators.
+The half of the jury must be Professors.
+The half of the jury must not be from EDITE or telecom ParisTech or EURECOM.
+The jury president must be Professor.
+
+================
+== Final Jury ==
+================
+
+* PhD Advisor: Raphaël Troncy
+* PhD Advisor: Aline Senart
+
+* Reviewer 1: Marie Aude Aufaure, http://perso.ecp.fr/~aufaurema/
+* Reviewer 2: Philippe Cudré-Mauroux, http://exascale.info/phil
+
+* Examiner 1: Stefan Dietze, https://stefandietze.wordpress.com/
+* Examiner 2: Pierre Senellart
+* Examiner 3: Yannick Cras, https://www.linkedin.com/pub/yannick-cras/0/343/b40 OR Eric Simon, https://www.researchgate.net/profile/Eric_Simon5
+
+* Guest: David Trastour
+
+===========
+== Dates ==
+===========
+
+* Date:
+
+===========================
+== Declined Jury Members ==
+===========================

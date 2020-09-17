@@ -1,0 +1,124 @@
+{
+    "id" : "Dataset unique identification",
+    "name" : "Dataset machine-readable name",
+    "title" : "Dataset human-readable name",
+    "description" : "Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the dataset is of interest",
+    "url" : "Dataset accessible URI",
+    "type" : "Dataset type (private, open, etc.)",
+    "accessLevel" : "The degree to which this dataset could be made publicly-available, regardless of whether it has been made available. ",
+    "rights" : "This may include information regarding access or restrictions based on privacy, security, or other policies.",
+    "state" : "",
+    "language" : "[list of languages used in the dataset]",
+    "languageCode" : "[list of language code used in the dataset]",
+    "conformsTo" : "URI used to identify a standardized specification the dataset conforms to",
+    "accuralPeriodicity" : "",
+    "licenseTitle" : "The human-readable title of the license used",
+    "licenseID" : "The machine-readable identification of the license used",
+    "licenseUrl" : "The URL of the license used",
+    "attributionText" : "",
+    "attributionLink" : "",
+    "version" : "",
+    "revisionId" : "",
+    "revisionTimestamp" : "",
+    "metadataCreated" : "The creation date of the metadata",
+    "metadataModified" : "Most recent date on which the dataset metadata was changed, updated or modified",
+    "maintainer" : {
+        "name" : "Contact person name for the dataset maintainer",
+        "email" : "Contact person name for the dataset maintainer",
+        "role" : "Contact person role in the organization for the dataset maintainer"
+    },
+    "author" : {
+        "name" : "Contact person name for the dataset author",
+        "email" : "Contact person email for the dataset author",
+        "role" : "Contact person role in the organization for the dataset author"
+    },
+    "hasPart" : ["The collection of which the dataset is a subset"],
+    "ratingsAverage" : "Average score of the resource rating by users",
+    "dataQualityAverage" : "Average score of the objective data quality for the dataset",
+    "numberOfResources" : "",
+    "numberOfTags" : "",
+    "organization" : [
+        {
+            "id" : "Unique identification of the organization",
+            "name" : "Human-readable organization name",
+            "description" : "Human-readable description (e.g., an abstract) with sufficient detail to enable a user to have an overview of the organization",
+            "type" : "",
+            "organizationalUnit" : "An Organization such as a department or support unit which is part of some larger Organization and only has full recognition within the context of that Organization",
+            "subOrganizationOf" : "Represents hierarchical containment of Organizations or OrganizationalUnits; indicates an organization which is a sub-part or child of this organization",
+            "basedAt" : "Indicates the site at which a person is based. We do not restrict the possibility that a person is based at multiple sites",
+            "hasSite" : {
+                    "siteAddress" : "human-readable address for the company's site"
+                },
+            "hasUnit" : "Indicates a unit which is part of this Organization",
+            "location" : "Location description for the organization"
+        }
+    ],
+    "resources" : [
+        {
+            "id" : "Unique identification of the resource",
+            "name" : "Resource machine-readable name",
+            "title" : "Resource human-readable name",
+            "description" : "Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the resource is of interest",
+            "type" : "The human-readable format of the resource",
+            "downloadUrl" : "URL providing direct access to a dataset, for example via API or a graphical interface",
+            "accessUrl" : "URL providing indirect access to a dataset, for example via API or a graphical interface",
+            "format" : "A human-readable description of the file format of a distribution",
+            "hash" : "Calculated unique hash ID",
+            "state" : "",
+            "accessLevel" : "The degree to which this resource could be made publicly-available",
+            "mimetype" : "Machine-readable file format",
+            "size" : "Actual size of the resource in bytes",
+            "describedBy" : "URL to the data dictionary for the distribution found at the downloadUrl",
+            "describedByType" : "The machine-readable file format",
+            "conformsTo" : "URI used to identify a standardized specification the distribution conforms to",
+            "rating" : "Normalized score of the resource rating by users",
+            "dataQuality" : "Score of the resource objective quality",
+            "cacheUrl" : "A URL of the resource cache",
+            "temporal" : {
+                "temporalGranularity" : "The range of temporal granularity of a dataset",
+                "temporalCoverageFrom" : "Start date of applicability for the data",
+                "temporalCoverageTo" : "End date of applicability for the data"
+            },
+            "spatial" : {
+                "spatialText" : "",
+                "spatialGranularity" : "",
+                "bbox" : "",
+                "layers" : "",
+                "namespace" : ""
+            },
+            "created" : "The creation date of the resource",
+            "modified" : "Most recent date on which the resource was changed, updated or modified",
+            "cacheModified" : "Most recent date on which the resource cache was changed, updated or modified",
+            "revisionnId" : "",
+            "revisionTimestamp" : ""
+        }
+    ],
+    "groups" : [
+        {
+            "id" : "Group unique identification",
+            "name" : "Group machine-readable name",
+            "title" : "Group human-readable name",
+            "description" : "Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the group is of interest",
+            "created" : "The creation date of the group",
+            "modified" : "Most recent date on which the group was changed, updated or modified",
+            "administrator" : [
+                {
+                    "name" : "Contact person name for the group administrator",
+                    "email" : "Contact person name for the group administrator",
+                    "role" : "Contact person name for the group administrator"
+                }
+            ],
+            "subGroupOf" : "Defines if the group is part of a parent group and specifies the parent group id"
+        }
+    ],
+    "tags" : [
+        {
+            "id" : "Unique identification of the tag",
+            "name" : "Tag machine-readable name",
+            "title" : "Tag human-readable name",
+            "vocabularyId" : "Unique identifier of the tag vocabulary if any",
+            "created" : "The creation date of the tag",
+            "modified" : "Most recent date on which the tag was changed, updated or modified"
+        }
+    ]
+}

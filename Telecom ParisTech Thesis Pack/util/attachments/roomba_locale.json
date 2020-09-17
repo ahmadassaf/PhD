@@ -1,0 +1,11 @@
+var messages =   {
+    "en": {
+        "error" : {
+            "unKnownError" : "An unknown Error occurred .. ",
+            .
+            .
+    "fr": {
+        "error" : {
+            "unkownError" : "Erreur inconnue .."
+        }
+    }

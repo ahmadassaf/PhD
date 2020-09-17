@@ -1,0 +1,70 @@
+{
+	"alchemy": "Arts & Entertainment",
+	"alchemyCode" : "arts_entertainment",
+	"DMOZ": ["Arts","Society"],
+	"stack" : ["music","movies"]
+},
+{
+	"alchemy": "Business",
+	"alchemyCode" : "business",
+	"DMOZ": ["Business", "News", "Shopping"],
+	"stack" : ["money","pm","answers.onstartups","patents","quant"]
+},
+{
+	"alchemy": "Computers & Internet",
+	"alchemyCode" : "computer_internet",
+	"DMOZ": ["Computers", "Science"],
+	"stack" : ["stackoverflow","serverfault","superuser"]
+},
+{
+	"alchemy": "Culture & Politics",
+	"alchemyCode" : "culture_politics",
+	"DMOZ": ["News", "Society","history"],
+	"stack" : ["politics"]
+},
+{
+	"alchemy": "Gaming",
+	"alchemyCode" : "gaming",
+	"DMOZ": ["Games"],
+	"stack" : ["gaming"]
+},
+{
+	"alchemy": "Health",
+	"alchemyCode" : "health",
+	"DMOZ": ["Health", "Society"],
+	"stack" : ["fitness","sustainability"]
+},
+{
+	"alchemy": "Law & Crime",
+	"alchemyCode": "law_crime",
+	"DMOZ": ["News", "Society"]
+},
+{
+	"alchemy": "Religion",
+	"alchemyCode": "religion",
+	"DMOZ": ["Reference", "Society"],
+	"stack" : ["islam","christianity"]
+},
+{
+	"alchemy": "Recreation",
+	"alchemyCode": "recreation",
+	"stack" : ["philosophy","photo"],
+	"DMOZ": ["Recreation", "Society"]
+},
+{
+	"alchemy": "Science & Technology",
+	"alchemyCode": "science_technology",
+	"DMOZ": ["Science", "News"],
+	"stack" : ["stats","math"]
+},
+{
+	"alchemy": "Sports",
+	"alchemyCode": "sports",
+	"DMOZ": ["Sports", "News"],
+	"stack" : ["sports"]
+},
+{
+	"alchemy": "Weather",
+	"alchemyCode": "weather",
+	"DMOZ": ["News"]
+}

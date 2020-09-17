@@ -1,0 +1,211 @@
+\contentsline {section}{Acknowledgements}{iv}{section*.3}%
+\contentsline {section}{Abstract}{vi}{section*.5}%
+\contentsline {section}{Contents}{vii}{chapter*.6}%
+\contentsline {section}{List of Figures}{viii}{chapter*.7}%
+\contentsline {section}{List of Tables}{ix}{chapter*.8}%
+\contentsline {section}{List of Listings}{x}{chapter*.9}%
+\contentsline {section}{List of Publications}{xi}{chapter*.10}%
+\contentsline {section}{Acronyms}{xiii}{Item.9}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Context and Motivation}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Use Case Scenario}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Research Challenges}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Dataset Integration and Enrichment}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Dataset Maintenance \& Discovery}{4}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Dataset Quality}{5}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Thesis Contributions}{5}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Contributions on Dataset Maintenance \& Discovery}{6}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Contributions on Dataset Quality Control}{6}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Contributions on Dataset Integration and Enrichment}{6}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}Thesis Outline}{7}{section.1.5}%
+\contentsline {part}{I\hspace {1em}Towards A Complete Dataset Profile}{9}{part.1}%
+\contentsline {xpart}{Towards A Complete Dataset Profile}{11}{part.1}%
+\contentsline {chapter}{\numberline {2}Background}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Semantic Web}{12}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Resource Description Framework (RDF)}{13}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}RDF Schema}{14}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Web Ontology Language}{16}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}SPARQL Query Language}{16}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Linked Data}{16}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Open Data}{17}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Open Licenses}{19}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Data Profiling}{21}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Conclusion}{22}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Dataset Profiles and Models}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Data Management Systems and Dataset Models}{23}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}DCAT}{24}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}DCAT-AP}{24}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Dataset Usage Vocabulary}{24}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}ADMS}{24}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}VoID}{25}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}CKAN}{25}{subsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.1.7}DKAN}{26}{subsection.3.1.7}%
+\contentsline {subsection}{\numberline {3.1.8}Socrata}{26}{subsection.3.1.8}%
+\contentsline {subsection}{\numberline {3.1.9}Junar}{26}{subsection.3.1.9}%
+\contentsline {subsection}{\numberline {3.1.10}INSPIRE metadata}{26}{subsection.3.1.10}%
+\contentsline {subsection}{\numberline {3.1.11}Schema.org}{27}{subsection.3.1.11}%
+\contentsline {subsection}{\numberline {3.1.12}Common Core Metadaa Schema (CCMS)}{27}{subsection.3.1.12}%
+\contentsline {section}{\numberline {3.2}Metadata Model Classification}{27}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Mapping Metadata Models}{30}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Towards A Harmonized Model (HDL)}{35}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Resources}{36}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Groups}{38}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Tags}{38}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Organization}{39}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Core Metadata}{39}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Controlling Field Values}{40}{subsection.3.4.6}%
+\contentsline {section}{\numberline {3.5}Summary}{42}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Dataset Profiles Generation and Validation}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{43}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Motivation}{44}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Related Work}{45}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Profiling Data Portals}{47}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Data Management System Identification}{48}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Metadata Extraction}{49}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Instance and Resource Extraction}{50}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Profile Validation}{51}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Profile and Report Generation}{52}{subsection.4.4.5}%
+\contentsline {section}{\numberline {4.5}Experiments and Evaluation}{54}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Experimental Setup}{55}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Profiling Correctness}{56}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Profiling Completeness}{57}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Analyzing Profiling Results}{57}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}General Information}{57}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Access Information}{58}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Ownership Information}{59}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Provenance Information}{60}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.5}Enriched Profiles}{60}{subsection.4.6.5}%
+\contentsline {section}{\numberline {4.7}Summary}{60}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Objective Linked Data Quality Assessment}{62}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{62}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Data Quality Assessment}{63}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Objective Linked Data Quality Classification}{64}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Completeness}{67}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Availability}{68}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Correctness}{68}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Consistency}{69}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Freshness}{69}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Provenance}{69}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.7}Licensing}{69}{subsection.5.3.7}%
+\contentsline {subsection}{\numberline {5.3.8}Comprehensibility}{69}{subsection.5.3.8}%
+\contentsline {subsection}{\numberline {5.3.9}Coherence}{70}{subsection.5.3.9}%
+\contentsline {subsection}{\numberline {5.3.10}Security}{70}{subsection.5.3.10}%
+\contentsline {section}{\numberline {5.4}Linked Data Quality Tools}{70}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Information Quality}{70}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Modeling Quality}{71}{subsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.1}Semi-automatic Approaches}{71}{subsubsection.5.4.2.1}%
+\contentsline {subsubsection}{\numberline {5.4.2.2}Automatic Approaches}{71}{subsubsection.5.4.2.2}%
+\contentsline {subsection}{\numberline {5.4.3}Dataset Quality}{72}{subsection.5.4.3}%
+\contentsline {subsubsection}{\numberline {5.4.3.1}Manual Ranking Approaches}{72}{subsubsection.5.4.3.1}%
+\contentsline {subsubsection}{\numberline {5.4.3.2}Crowd-sourcing Approaches}{72}{subsubsection.5.4.3.2}%
+\contentsline {subsubsection}{\numberline {5.4.3.3}Semi-automatic Approaches}{73}{subsubsection.5.4.3.3}%
+\contentsline {subsubsection}{\numberline {5.4.3.4}Automatic Ranking Approaches}{74}{subsubsection.5.4.3.4}%
+\contentsline {subsection}{\numberline {5.4.4}Queryable End-point Quality}{76}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}An Objective Quality Assessment Framework}{76}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Quality Score Calculation}{78}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Evaluation}{78}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Experiments and Analysis}{79}{subsection.5.5.3}%
+\contentsline {section}{\numberline {5.6}Roomba Quality Extension vs. state of the art}{81}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Summary}{82}{section.5.7}%
+\contentsline {part}{II\hspace {1em}Towards Enriched Enterprise Data}{84}{part.2}%
+\contentsline {xpart}{Towards Enriched Enterprise Data}{86}{part.2}%
+\contentsline {chapter}{\numberline {6}Background}{87}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Data Integration}{87}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Business Intelligence}{88}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Multidimensional Model}{88}{subsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.1}Relational Representation}{89}{subsubsection.6.2.1.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.2}Analysis and Querying}{89}{subsubsection.6.2.1.2}%
+\contentsline {subsection}{\numberline {6.2.2}SAP BI Application Suite}{90}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}SAP High Performance Analytic Appliance (HANA)}{90}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}HANA XS-Engine}{92}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Active Information Store (AIS)}{92}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Social Web}{93}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Data Integration in the Enterprise}{95}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Enterprise Knowledge Bases}{96}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Entity Disambiguation with DBpedia in SAP HANA}{97}{subsection.7.1.1}%
+\contentsline {section}{\numberline {7.2}Enhancing Schema Matching}{98}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Related Work}{98}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Proposition}{99}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Activity Flow}{100}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.4}Data Reconciliation}{101}{subsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.2.5}Matching Unnamed and Untyped Columns}{102}{subsection.7.2.5}%
+\contentsline {subsubsection}{\numberline {7.2.5.1}Vector-based Similarity}{102}{subsubsection.7.2.5.1}%
+\contentsline {subsubsection}{\numberline {7.2.5.2}Pearson Product-Moment Correlation Coefficient (PPMCC)}{103}{subsubsection.7.2.5.2}%
+\contentsline {subsubsection}{\numberline {7.2.5.3}Spearman's Rank Correlation Coefficient}{103}{subsubsection.7.2.5.3}%
+\contentsline {subsection}{\numberline {7.2.6}Column Labeling}{104}{subsection.7.2.6}%
+\contentsline {subsection}{\numberline {7.2.7}Handling Non-String Values}{104}{subsection.7.2.7}%
+\contentsline {subsection}{\numberline {7.2.8}Experiments}{104}{subsection.7.2.8}%
+\contentsline {section}{\numberline {7.3}Important Properties for Entities}{110}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Reverse Engineering the Google KG Panel}{110}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Evaluation}{112}{subsection.7.3.2}%
+\contentsline {subsubsection}{\numberline {7.3.2.1}User survey}{112}{subsubsection.7.3.2.1}%
+\contentsline {subsubsection}{\numberline {7.3.2.2}Comparison with Google Knowledge Graph}{112}{subsubsection.7.3.2.2}%
+\contentsline {subsubsection}{\numberline {7.3.2.3}Modeling the preferred properties with Fresnel}{113}{subsubsection.7.3.2.3}%
+\contentsline {section}{\numberline {7.4}Summary}{113}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Semantic Social News Aggregation}{115}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Introduction}{115}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Underlying Mechanism}{116}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Document Handler}{116}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Query Layer}{118}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Data Parser}{120}{subsection.8.2.3}%
+\contentsline {section}{\numberline {8.3}Front-End}{122}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Summary}{122}{section.8.4}%
+\contentsline {chapter}{\numberline {9}Conclusions and Future Perspectives}{124}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Scenario Flashback}{124}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Achievements}{124}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Perspectives}{127}{section.9.3}%
+\contentsline {part}{III\hspace {1em}R\'{e}sum\'{e} de Th\`{e}se}{129}{part.3}%
+\contentsline {xpart}{R\'{e}sum\'{e} de Th\`{e}se}{131}{part.3}%
+\contentsline {chapter}{\numberline {10}Introduction}{131}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Contexte et Motivation}{131}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Sc\'{e}nario d'utilisation}{133}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Probl\'{e}matiques de Recherche}{134}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Int\'{e}gration et Am\'{e}lioration des Donn\'{e}es}{134}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Maintenance et D\'{e}couverte des Donn\'{e}es}{135}{subsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.3.3}Qualit\'{e} des Donn\'{e}es}{135}{subsection.10.3.3}%
+\contentsline {section}{\numberline {10.4}Contributions de la Th\`{e}se}{136}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}Contributions sur la Maintenance et D\'{e}couverte des Donn\'{e}es}{137}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}Contributions sur la Qualit\'{e} des Donn\'{e}es}{137}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.3}Contributions sur l'int\'{e}gration et l'am\'{e}lioration des Donn\'{e}es}{138}{subsection.10.4.3}%
+\contentsline {section}{\numberline {10.5}Vers un Profil de Donn\'{e}es Complet}{138}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}Profils et Mod\`{e}les d'ensembles de Donn\'{e}es}{138}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}G\'{e}n\'{e}ration et Validation de Profils de Donn\'{e}es}{143}{subsection.10.5.2}%
+\contentsline {subsection}{\numberline {10.5.3}\`{E}valuation Objective de la Qualit\'{e} des Donn\'{e}es Associ\'{e}es}{147}{subsection.10.5.3}%
+\contentsline {section}{\numberline {10.6}Vers des Donn\'{e}es d'entreprise Agr\'{e}ment\'{e}es}{149}{section.10.6}%
+\contentsline {subsection}{\numberline {10.6.1}Int\'{e}gration des Donn\'{e}es dans l'entreprise}{149}{subsection.10.6.1}%
+\contentsline {subsubsection}{\numberline {10.6.1.1}Rapprochement des Donn\'{e}es}{150}{subsubsection.10.6.1.1}%
+\contentsline {subsubsection}{\numberline {10.6.1.2}Identification des Colonnes Non-nomm\'{e}es et Non Typ\'{e}es}{151}{subsubsection.10.6.1.2}%
+\contentsline {subsubsection}{\numberline {10.6.1.3}\`{E}tiquetage des Colonnes}{151}{subsubsection.10.6.1.3}%
+\contentsline {subsubsection}{\numberline {10.6.1.4}Gestion des Valeurs typ\'{e}es}{152}{subsubsection.10.6.1.4}%
+\contentsline {subsection}{\numberline {10.6.2}Propri\'{e}t\'{e}s Importantes pour les Entit\'{e}s}{152}{subsection.10.6.2}%
+\contentsline {subsection}{\numberline {10.6.3}Agr\'{e}gateur de Nouvelles Sociale s\'{e}mantique}{153}{subsection.10.6.3}%
+\contentsline {section}{\numberline {10.7}R\'{e}alisations}{154}{section.10.7}%
+\contentsline {subsection}{\numberline {10.7.1}Contributions pour les Administrateurs de Portail de Donn\'{e}es}{154}{subsection.10.7.1}%
+\contentsline {subsection}{\numberline {10.7.2}Contributions pour les Analystes de Donn\'{e}es}{155}{subsection.10.7.2}%
+\contentsline {section}{\numberline {10.8}Perspectives}{156}{section.10.8}%
+\contentsline {subsection}{\numberline {10.8.1}Repr\'{e}sentation du profil des donn\'{e}es}{156}{subsection.10.8.1}%
+\contentsline {subsection}{\numberline {10.8.2}Profilage Automatique des Donn\'{e}es}{157}{subsection.10.8.2}%
+\contentsline {subsection}{\numberline {10.8.3}Qualit\'{e} Objective des Linked Data}{157}{subsection.10.8.3}%
+\contentsline {subsection}{\numberline {10.8.4}Int\'{e}gration des Donn\'{e}es d'entreprises}{157}{subsection.10.8.4}%
+\contentsline {part}{Appendix}{157}{subsection.10.8.4}%
+\contentsline {chapter}{\numberline {A}Installation and Cutomization Instructions}{158}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Installation and cutomization instructions for Roomba}{158}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Customizing Roomba}{158}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}Localization}{159}{subsection.A.2.1}%
+\contentsline {section}{\numberline {A.3}Installation and cutomization instructions for Knowledge Graph Scraper}{159}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Customization}{160}{subsection.A.3.1}%
+\contentsline {chapter}{\numberline {B}Roomba Results}{162}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Roomba profiling report for the LOD Cloud}{162}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Roomba quality profiling report for the LOD Cloud}{165}{section.B.2}%
+\contentsline {chapter}{\numberline {C}DBpedia Ranked Properties in Fresnel Vocabulary}{166}{appendix.C}%
+\contentsline {chapter}{\numberline {D}SAP HANA Semantic Services API}{169}{appendix.D}%
+\contentsline {section}{\numberline {D.1}XSJS API Implementation}{169}{section.D.1}%
+\contentsline {section}{\numberline {D.2}API Documentation}{171}{section.D.2}%
+\contentsline {subsection}{\numberline {D.2.1}Entity Enrichment}{171}{subsection.D.2.1}%
+\contentsline {subsubsection}{\numberline {D.2.1.1}Describe Entity ({\small \ttfamily describe.xsjs})}{171}{subsubsection.D.2.1.1}%
+\contentsline {subsubsection}{\numberline {D.2.1.2}Enrich Entity ({\small \ttfamily enrich.xsjs})}{171}{subsubsection.D.2.1.2}%
+\contentsline {subsection}{\numberline {D.2.2}Entity Disambiguation ({\small \ttfamily disambiguate.xsjs})}{171}{subsection.D.2.2}%
+\contentsline {subsection}{\numberline {D.2.3}Schema Matching ({\small \ttfamily matchTables.xsjs})}{173}{subsection.D.2.3}%
+\contentsline {chapter}{\numberline {E}Source Code for Mappings}{175}{appendix.E}%
+\contentsline {section}{\numberline {E.1}Open Licenses Mappings}{175}{section.E.1}%
+\contentsline {section}{\numberline {E.2}Semantic Social News Aggregation Mappings}{177}{section.E.2}%

@@ -1,0 +1,13 @@
+In this paper, we highlight the need for structured and complete dataset profiles to facilitate dataset search and data integration. We want to highlight two facts: 1) While existing solutions tackle different aspects (statistical, topical), there exist no complete solution that facilitates providing an aggregate and complete dataset profile 2) There is no automatic solution that is able to profile and examine the dataset metadata at a large scale.
+
+Our contribution is the framework that fills in those two gaps. Its architecture allows for additional modules to be plugged in, in order to enhance the generated profile. For example, we have recently introduced a linked data quality profiler. This new profiler takes advantage of the processing steps already implemented and is able to provide an objective quality score for the linked datasets examined. The framework is designed so that existing module such as LODstats should be pluggable.
+
+We have focused on CKAN data portals for their wide adoption. However, we are currently investigating a harmonized dataset profile model that will enable us to easily extend the framework to support other data portals. This model will build on DCAT and voiD.
+
+The framework has been evaluated against a manually created dataset profile, following strictly the CKAN standard model. In addition to that, we evaluated the framework's accuracy against a selected "golden standard" of 20 datasets from the LOD cloud and other CKAN based portals. This will be made clearer in the camera ready version. We also felt that running our tool on LOD and analyzing the results will highlight the need for such approaches and emphasize the importance of our framework, even if this is for confirming the well-known bad status of the LOD cloud metadata.
+
+The framework paves the way to deeply examine the state of LOD datasets and compare it against other open data portals. We have ran the framework on various portals (the results are published on the tool's Github repository), for example the openAFRICA (http://africaopendata.org/) with 1,657 datasets. However, due to space limitations we were not able to publish our full findings.
+
+The LOD cloud datasets have been fetched through querying the datahub CKAN API. Although the LOD cloud contains more than 1000 datasets, until this moment, the "group_show" API endpoint for the datahub is not updated to include all the newly added datasets. We were thus only able to run it on the 259 datasets which are the results of this query.
+
+We will improve the related work in the camera ready version and naturally fully proof read the text for the remaining typos.

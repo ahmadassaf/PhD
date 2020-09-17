@@ -1,0 +1,5 @@
+// Entity mode
+{"entities": [{"name":"Microsoft","score":0.9681761690228368},...]}
+
+// Category mode
+{"types": [{"name":"Company","score":0.9681761690228368},...]}
