@@ -1,7 +1,8 @@
 \documentclass[a4paper,11pt,twoside]{ThesisStyle}
 \usepackage{etex}
-\include{util/definitions}
-\include{util/includes}
+
+\usepackage{util/definitions}
+\usepackage{util/includes}
 
 \makeatletter
 \g@addto@macro{\UrlBreaks}{\UrlOrds}
@@ -20,11 +21,6 @@
 \include{title/separator}
 \include{title/basmalah}
 \include{title/separator}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%  To Do List  %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%
-%\listoftodos
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%  Aknowledgment  %%%
@@ -87,7 +83,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%  Introduction  %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
-\input{introduction/introduction}
+\include{introduction/introduction}
 \clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -129,8 +125,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%  Bibliography %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
-\bibliographystyle{plain}
-\bibliography{Thesis}
+\bibliographystyle{abbrv}
+\bibliography{../Bibliography/bibliography}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%  Appendix %%%
@@ -139,11 +135,11 @@
 \let\cleardoublepage\clearpage
 \part{Appendix} \label{part:appendix}
 \appendix
-% \include{appendix/appendix_D}
-% \include{appendix/appendix_E}
-% \include{appendix/appendix_B}
-% \include{appendix/appendix_F}
-% \include{appendix/appendix_C}
+\include{appendix/appendix_D}
+\include{appendix/appendix_E}
+\include{appendix/appendix_B}
+\include{appendix/appendix_F}
+\include{appendix/appendix_C}
 
 \chapter*{}
 \chaptermark{}

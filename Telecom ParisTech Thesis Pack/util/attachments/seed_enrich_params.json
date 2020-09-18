@@ -1,8 +1,0 @@
-{
-    abstract: Give a query, // Mandatory
-    filter: Filter the query with a JSON array
-        /* 
-        {"abstract":true,"attributes":[{"type":"name"},..],..}
-        default: {} [no filter]
-        */
-}

@@ -1,7 +1,0 @@
-{
-    "locale"         : "en",
-    "cacheFolderName": "/cache/",
-    "licensesFolder" : "/util/licenses/",
-    "mappingFileName": "licenseMappings",
-    "proxy"          : ""
-}

@@ -1,8 +1,0 @@
-{
-    "abstract": true,
-    "thumbnail": true,
-    "attributes": [{
-        "type": "http://dbpedia.org/property/name"
-    }, ...],
-    "outgoingAssociations": []
-}
